@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: 0 0 1.5em;
+}
