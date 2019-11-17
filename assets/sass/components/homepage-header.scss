@@ -9,7 +9,6 @@
 }
 
 .homepage-header__contents {
-	max-width: $content-max-width + 60px;
 	position: relative;
 
 	&::after {
@@ -37,6 +36,11 @@
 
 .homepage-header__subtitle {
 	font-size: 3em;
+	padding-right: 16.666666%;
+
+	a {
+		text-decoration-width: 0.1em;
+	}
 }
 
 // .homepage-header__full-stop--london {

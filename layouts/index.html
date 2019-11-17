@@ -7,7 +7,7 @@
         </a>
         {{ with .Site.Params.Subtitle }}
           <p class="homepage-header__subtitle">
-            James Shakespeare builds websites, like this one. He is from London and works at Quartz in New York<span class="homepage-header__full-stop--ny">.</span>
+            James Shakespeare builds websites, like this one. He is from London and works at <a href="https://qz.com/user/777129/">Quartz</a> in New York<span class="homepage-header__full-stop--ny">.</span>
           </p>
         {{ end }}
       </div>
@@ -19,14 +19,33 @@
         {{.Content}}
         <p><a class="homepage-content__cta" href="#">Click on this button, dammit</a></p>
         <p>Here's a bit more text, that talks about what is on this site and why you should keep reading.</p>
-        <figure class="homepage-content__headshot">
-          <img class="homepage-content__img" src="/james-shakespeare.jpg" alt="James Shakespeare" />
-          <figcaption class="homepage-content__caption">A portrait of the artist as a young-ish man. 2019.</figcaption>
-        </figure>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img class="gallery__img" src="/james-shakespeare.jpg" alt="James Shakespeare" />
+          </figure>
+          <figure class="gallery__item">
+            <img class="gallery__img" src="/east-river.jpg" alt="The East River, New York" />
+          </figure>
+        </div>
       </section>
       <section class="homepage-content__section">
         <h2>Projects</h2>
         <p>I have made lots of things some things I have made include...</p>
+      </section>
+      <section class="homepage-content__section">
+        <h2>Recent posts</h2>
+        <ul class="post-list">
+        <!-- Ranges through content/posts/*.md -->
+        {{ range first 5 .Site.RegularPages }}
+          <li class="post-list__item">
+            <a href="{{.Permalink}}">
+              <h3 class="post-list__heading">{{.Title}}</h3>
+            </a>
+            <time class="post-list__date">{{.Date.Format "1 January 2006"}}</time>
+          </li>
+        {{ end }}
+        </ul>
+        <p><a class="homepage-content__cta" href="#">See all posts</a></p>
       </section>
     </div>
     <div>

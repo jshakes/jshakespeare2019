@@ -1,0 +1,38 @@
+---
+date: 2017-12-01 15:30:00+05:00
+layout: post
+permalink: how-slack-hooks-users-through-artificial-urgency
+title: How Slack hooks users through artificial urgency
+---
+
+You may have heard someone describe a piece of software as being addictive. As in, "I'm so addicted to this balloon-popping game on my phone that I got fired from my job as an air traffic controller". As the amount of software vying for our attention has exploded in recent years, companies are increasingly hot-wiring our brain’s reward center to make their product successful. It is no longer enough for an application to be enjoyable or useful, it must also provide us with dopamine-inducing moments that reduce us to cocaine-addicted lab rats mashing a button marked 'Press here for cocaine’. The software in the air-traffic control tower may be good for landing planes safely, but it’s missing the habit-forming hooks that would otherwise send it to number one in the App Store charts.
+
+Slack is a good example of habit-forming software. The longer you use it, the harder it becomes to imagine work life without it. This is not because it necessarily improves the way we communicate with our colleagues, but because it fundamentally changes it. Slack attempts to replace the fusty conventions of emails and in-person meetings with a tool that encourages the discussion of Everything Right Now.
+
+Obviously Slack are onto something here. The average user logs 140 minutes of active usage per weekday<sup>[[1]](https://expandedramblings.com/index.php/slack-statistics/)</sup> (four times more than Facebook’s 35 minutes per day<sup>[[2]](https://sproutsocial.com/insights/facebook-stats-for-marketers/)</sup>). I have probably spent thousands of hours of my life using it. And yet I have absolutely nothing tangible to show for this. In fact, my feelings of productivity and fulfillment on any given day are often inversely proportional to how much time I have spent using Slack.
+
+This relationship is worth examining because Slack claims to be 'Where Work Happens’, an all-in-one tool for workplace collaboration without which we are cursed to spend our days trudging between meetings or exchanging emails. Their website also claims to make you "more productive, less stressed, and just a little bit happier”<sup>[[3]](https://slack.com/features)</sup>. As with cocaine, this is partly true.
+
+The simplest explanation for Slack’s popularity is that all your colleagues are using Slack. It’s a bit like the way everyone gravitates towards the kitchen at a house party. It starts off as a suitable place for newcomers to gather while the host makes them a drink, but before long everyone else has joined them and the rest of the house is empty. Individually, everyone in the kitchen knows the living room is a much more comfortable place to sit, but would feel a bit weird and standoffish if they left the social throng that has mysteriously spawned around the bread bin. 
+
+What lures people to Slack in the first place is its ability to manufacture an artificial sense of urgency. There’s no option to send a message on Slack in such a way that says ‘no need to stop what you’re doing, but could you please deal with this at some point?’. Even if you explicitly preface every message with that statement, by the time the recipient has cmd + tabbed away from whatever they were doing to read it they might as well just deal with it now anyway. Sometimes this is good; some jobs require people to juggle lots of time sensitive things and the ability to get an instant response from teammates is valuable to them. But most intra-office communication is not urgent. In fact, a decent chunk of it isn’t even work-related.
+
+Even if such disruptions frustrate us as recipients, when it’s our turn to communicate something we’re unlikely to switch to email or schedule a meeting. Why would we want our message to go to the bottom of the pile, or have to wait for a vacant slot in both our calendars? Urgency has become the status quo. Like leading someone out of the kitchen at a house party, it changes the tone of the conversation and feels slightly like you’re about to try and make out with them.
+
+Slack uses two devices to manufacture urgency. The first is the kind of eyeball-grabbing, shouty notifications that you’re used to seeing on social media. But while ignoring shouty Facebook notifications for a few days might mean you miss out on an invitation to a party, the consequences of ignoring Slack notifications could mean you remain blissfully unaware that the website has been hacked and everything is on fire. Unfortunately, the Slack message from your boss saying ‘the website has been hacked and everything is on fire’ looks and sounds identical to the Slack message from the person sitting next to you asking where you want to go for lunch. This makes it hard to filter signal from noise and forces you to be on triage duty all day. The same attention-leaching forces are at play whether you're using Slack for work or socializing.
+
+The second urgency-generating device is the mostly inconsequential chatter that occurs throughout the workday. These are not conversations that demand your attention by belching notifications and scarlet circles with numbers in them, but the ones you feel you should keep an eye on just in case they affect you or require your input in some way. Slack chatter can be ephemeral and hard to revisit, so you feel compelled to continually check in throughout the day in case you miss out on something important.
+
+These devices make you feel itchy. It's hard to look away from Slack for very long because there are just so many time-sensitive and essential things that you’re missing out on, even when there aren't.
+
+Other forms of communication like emails and meetings are not suitable for everything, but they are good at enabling focused communication based on existing schedules. By contrast, Slack encourages us to juggle hundreds of separate conversations, barraging our colleagues with stream-of-consciousness messages and giving little regard to what the recipient is currently doing. Because every message is presented as time-sensitive, and because sometimes those messages are genuinely important, Slack can be extremely tiring to use for everyone involved. When your only tool is a hammer, everyone goes home with severe head trauma.
+
+If the main reason to use Slack is because it shouts the loudest, should we really be using it? If a competitor were to release something tomorrow that set off an airhorn in the user's face every time someone sent them a message, would that become the new choice of office communication? I’d bet ten bucks and a pair of ear defenders that it would. Slack is undoubtedly useful for some things, and for some people more than others, but it is not the holy grail of workplace communication that it claims to be.
+
+Slack as a company is not hell-bent on ruining our productivity or stressing us out with feelings of bombardment or FOMO, but they are in the business of making as many people as possible dependent on their product as possible. Sometimes it’s best to step away from Slack, consider what we want to say, and schedule a time to say it. Perhaps then we can actully be more productive, less stressed, and just a little bit happier.
+
+#### References
+
+1. [https://expandedramblings.com/index.php/slack-statistics/](https://expandedramblings.com/index.php/slack-statistics/)
+2. [https://sproutsocial.com/insights/facebook-stats-for-marketers/](https://sproutsocial.com/insights/facebook-stats-for-marketers/)
+3. [https://slack.com/features](https://slack.com/features)

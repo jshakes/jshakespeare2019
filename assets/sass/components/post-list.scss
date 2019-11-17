@@ -1,0 +1,20 @@
+.post-list {
+	padding: 0;
+	margin: 2em 0;
+}
+
+.post-list__item {
+	margin: 0 0 2em;
+	list-style: none;
+	position: relative;
+
+	&::before {
+		content: '◖';
+		position: absolute;
+		left: -2em;
+	}
+}
+
+.post-list__heading {
+	margin: 0;
+}
