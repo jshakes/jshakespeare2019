@@ -1,0 +1,48 @@
+.homepage-content {
+	max-width: $content-max-width;
+	margin: 8em auto;
+	font-size: 1.25em;
+	line-height: 2;
+}
+
+.homepage-content__section {
+	margin-bottom: 4em;
+}
+
+.homepage-content__headshot {
+	display: flex;
+	align-items: flex-end;
+	margin: 4em 0;
+}
+
+.homepage-content__img {
+	width: 50%;
+}
+
+.homepage-content__caption {
+	margin-left: 2em;
+	font-style: italic;
+	line-height: 1;
+	font-size: 0.75em;
+	width: 25%;
+}
+
+.homepage-content__cta {
+	display: inline-flex;
+	align-items: center;
+	padding: 1em 2em;
+	border: 2px solid black;
+	box-shadow: 4px 4px 0 0 black;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&::after {
+		content: '☞';
+		margin-left: 1em;
+		font-size: 2em;
+		line-height: 1;
+	}
+}
