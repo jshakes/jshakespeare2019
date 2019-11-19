@@ -1,29 +1,46 @@
 .homepage-header {
-	background: #193b69;
-	color: white;
-	margin: 4em auto;
-	padding: 6em 8em 8em;
-	max-width: 1200px;
+	margin: 0.333333em 1em 2em 0.333333em;
+	padding: 2em;
 	position: relative;
-	animation: shadow 0.5s ease-out forwards 1s;
+	box-shadow: 0.5em 0.5em 0 0 var(--foreground, black);
+	border: 0.25em solid var(--foreground, black);
+
+	@include larger-than(mobile) {
+		margin: 4em;
+		padding: 6em 8em;
+		border-width: 0.333333em;
+		box-shadow: 0.666666em 0.666666em 0 0 var(--foreground, black);
+	}
 }
 
 .homepage-header__contents {
-	position: relative;
+	max-width: 1024px;
+
+	@include larger-than(mobile) {
+		padding-right: 15%;
+	}
+}
+
+.homepage-header__decoration {
+	font-size: 2em;
+	display: flex;
+	justify-content: space-between;
+
+	&::before {
+		content: '▰';
+	}
 
 	&::after {
-		content: '';
-    display: block;
-    padding-bottom: 5%;
-    background: url(/ldn-to-ny.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
+		content: '▰';
+		color: var(--accent);
+	}
+
+	@include larger-than(mobile) {
+		font-size: 4em;
 	}
 }
 
 .homepage-header__permalink {
-	color: inherit;
 	text-decoration: none;
 }
 
@@ -35,8 +52,13 @@
 }
 
 .homepage-header__subtitle {
-	font-size: 3em;
-	padding-right: 16.666666%;
+	font-size: 1.666666em;
+	line-height: 1.333333;
+	margin-bottom: 1em;
+
+	@include larger-than(mobile) {
+		font-size: 3em;
+	}
 
 	a {
 		text-decoration-width: 0.1em;

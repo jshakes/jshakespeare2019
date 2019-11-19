@@ -1,20 +1,36 @@
 .gallery {
 	display: flex;
-	align-items: center;
-	margin: 4em -4em;
+
+	@include larger-than(mobile) {
+		margin: 4em -4em;
+	}
 }
 
-.gallery__item {
-	margin: 0;
+.gallery__column {
 	width: 50%;
 
 	& + & {
 		margin-left: 2em;
+		margin-top: 8em;
 	}
 }
 
-.gallery__caption {
-	font-style: italic;
+.gallery__item {
+	margin: 0;
+
+	& + & {
+		margin-top: 2em;
+	}
+}
+
+.gallery__img {
+	display: block;
+	box-shadow: 0.333333em 0.333333em 0 0 var(--foreground, black);
+}
+
+.gallery__credit {
+	margin-top: 1em;
+	margin-left: 0.333333em;
 	line-height: 1;
 	font-size: 0.75em;
 }

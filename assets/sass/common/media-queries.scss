@@ -1,0 +1,31 @@
+$base-font-size: 16;
+
+$mqs: (
+  small-mobile: 460 / $base-font-size * 1rem,
+  almost-mobile: 570 / $base-font-size * 1rem,
+  mobile: 767 / $base-font-size * 1rem,
+  tablet: 1024 / $base-font-size * 1rem,
+  desktop: 1280 / $base-font-size * 1rem,
+);
+
+@mixin smaller-than($size) {
+  $width: #{map-get($mqs, $size)};
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin larger-than($size) {
+  $width: #{map-get($mqs, $size)};
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin between($min, $max) {
+  $minwidth: #{map-get($mqs, $min)};
+  $maxwidth: #{map-get($mqs, $max)};
+  @media (min-width: $minwidth) and (max-width: $maxwidth) {
+    @content;
+  }
+}

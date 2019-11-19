@@ -1,10 +1,38 @@
+:root {
+  --accent: #ffd400;
+  --background: white;
+  --foreground: #242427;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #6E7591;
+    --foreground: #030303;
+  }
+}
+
 * {
   box-sizing: border-box;
+
+  &:focus {
+    outline: 0.25rem solid var(--accent, black);
+  }
+
+  &:active {
+    outline: none;
+  }
+}
+
+::selection {
+  background: var(--foreground, black);
+  color: var(--background, white);
 }
 
 body {
   font-family: 'Overpass', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--background, white);
+  color: var(--foreground, black);
 }
 
 img {
@@ -16,6 +44,7 @@ a {
   
   &:hover {
     text-decoration: underline;
+    text-decoration-color: var(--accent);
   }
 }
 

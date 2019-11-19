@@ -1,23 +1,37 @@
 .homepage-content {
+	padding: 0 1em;
 	max-width: $content-max-width;
-	margin: 8em auto;
+	margin: 4em auto;
 	font-size: 1.25em;
 	line-height: 2;
+
+	@include larger-than(mobile) {
+		padding: 0;
+		margin: 8em auto;
+	}
 }
 
 .homepage-content__section {
 	margin-bottom: 4em;
 }
 
+.homepage-content__section-heading {
+	margin-bottom: 2em;
+}
+
 .homepage-content__cta {
 	display: inline-flex;
 	align-items: center;
 	padding: 1em 2em;
-	border: 2px solid black;
+	border: 2px solid var(--foreground, black);
 	text-decoration: none;
+	box-shadow: 2px 2px 0 0 var(--foreground, black);
 
 	&:hover {
 		text-decoration: none;
+		border-color: var(--accent);
+		box-shadow: 2px 2px 0 0 var(--accent);
+		color: inherit;
 	}
 
 	&::after {

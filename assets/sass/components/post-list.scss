@@ -1,6 +1,10 @@
 .post-list {
 	padding: 0;
-	margin: 2em 0;
+	margin: 0 0 4em;
+}
+
+.post-list__link {
+	display: block;
 }
 
 .post-list__item {
@@ -9,7 +13,7 @@
 	position: relative;
 
 	&::before {
-		content: '◖';
+		content: '▰';
 		position: absolute;
 		left: -2em;
 	}

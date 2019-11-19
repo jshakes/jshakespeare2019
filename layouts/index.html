@@ -10,49 +10,53 @@
             James Shakespeare builds websites, like this one. He is from London and works at <a href="https://qz.com/user/777129/">Quartz</a> in New York<span class="homepage-header__full-stop--ny">.</span>
           </p>
         {{ end }}
+        <div class="homepage-header__decoration" aria-hidden="true"></div>
       </div>
     </header>
     <div class="homepage-content">
       <section class="homepage-content__section">
-        <h2>About</h2>
+        <h2 class="homepage-content__section-heading">About</h2>
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         {{.Content}}
         <p><a class="homepage-content__cta" href="#">Click on this button, dammit</a></p>
         <p>Here's a bit more text, that talks about what is on this site and why you should keep reading.</p>
+        <p>You can also find me on <a href="https://twitter.com/jeshake">Twitter</a>, <a href="http://github.com/jshakes">GitHub</a> and <a href="https://www.linkedin.com/in/james-shakespeare-40784435/">LinkedIn</a>.</p>
         <div class="gallery">
-          <figure class="gallery__item">
-            <img class="gallery__img" src="/james-shakespeare.jpg" alt="James Shakespeare" />
-          </figure>
-          <figure class="gallery__item">
-            <img class="gallery__img" src="/east-river.jpg" alt="The East River, New York" />
-          </figure>
+          <div class="gallery__column">
+            <figure class="gallery__item">
+              <img class="gallery__img" src="/james-shakespeare.jpg" alt="James Shakespeare" />
+              <figcaption class="gallery__credit">Credit: <a href="https://www.instagram.com/erallphotography/">Erica Rallo</a></figcaption>
+            </figure>
+          </div>
+          <div class="gallery__column">
+            <figure class="gallery__item">
+              <img class="gallery__img" src="/east-river.jpg" alt="The East River, New York" />
+            </figure>
+            <figure class="gallery__item">
+              <img class="gallery__img" src="/park-avenue.jpg" alt="Park Avenue, New York" />
+            </figure>
+          </div>
         </div>
       </section>
       <section class="homepage-content__section">
-        <h2>Projects</h2>
+        <h2 class="homepage-content__section-heading">Projects</h2>
         <p>I have made lots of things some things I have made include...</p>
       </section>
       <section class="homepage-content__section">
-        <h2>Recent posts</h2>
+        <h2 class="homepage-content__section-heading">Recent posts</h2>
         <ul class="post-list">
         <!-- Ranges through content/posts/*.md -->
         {{ range first 5 .Site.RegularPages }}
           <li class="post-list__item">
-            <a href="{{.Permalink}}">
+            <a href="{{.Permalink}}" class="post-list__link">
               <h3 class="post-list__heading">{{.Title}}</h3>
             </a>
-            <time class="post-list__date">{{.Date.Format "1 January 2006"}}</time>
+            <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "1 January 2006"}}</time>
           </li>
         {{ end }}
         </ul>
         <p><a class="homepage-content__cta" href="#">See all posts</a></p>
       </section>
-    </div>
-    <div>
-      <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
-      {{ range first 10 .Pages }}
-          {{ .Render "summary"}}
-      {{ end }}
     </div>
   </main>
 {{ end }}
