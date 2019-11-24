@@ -1,0 +1,33 @@
+.post {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.post__header {
+	margin: 6em 0;
+}
+
+.post__headline {
+	font-size: 4em;
+	margin: 0;
+}
+
+.post__dateline {
+	margin-top: 1em;
+	display: block;
+
+	&::before {
+		content: '▰';
+		margin-right: 1em;
+	}
+
+	&::after {
+		content: '▰';
+		color: var(--accent);
+		margin-left: 1em;
+	}
+}
+
+.post__content p {
+	line-height: 1.666666;
+}

@@ -1,14 +1,18 @@
 {{ define "main" }}
   <main>
-  	<nav>
-  		<a href="/">jshakespeare.com</a>
-  	</nav>
-  	<article>
-  		<header>
-		  	<h1>{{.Title}}</h1>
-		  	<time datetime="{{.Date}}">{{.Date.Format "1 January 2006"}}</time>
-		  </header>
-	  	{{.Content}}
-	  </article>
+    <div class="post">
+    	<nav>
+    		<a href="/">jshakespeare.com</a>
+    	</nav>
+    	<article>
+    		<header class="post__header">
+  		  	<h1 class="post__headline">{{.Title}}</h1>
+  		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "1 January 2006"}}</time>
+  		  </header>
+        <div class="post__content">
+  	  	  {{.Content}}
+        </div>
+  	  </article>
+    </div>
   </main>
 {{ end }}
