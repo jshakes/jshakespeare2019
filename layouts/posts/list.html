@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main>
+  	<nav>
+  		<a href="/">jshakespeare.com</a>
+  	</nav>
+  	<h1>Posts</h1>
+  	<ul class="post-list">
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Site.RegularPages }}
+      <li class="post-list__item">
+        <a href="{{.Permalink}}" class="post-list__link">
+          <h3 class="post-list__heading">{{.Title}}</h3>
+        </a>
+        <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "1 January 2006"}}</time>
+      </li>
+    {{ end }}
+    </ul>
+  </main>
+{{ end }}
