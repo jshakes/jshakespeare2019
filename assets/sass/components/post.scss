@@ -13,19 +13,8 @@
 }
 
 .post__dateline {
-	margin-top: 1em;
+	margin-top: 2em;
 	display: block;
-
-	&::before {
-		content: '▰';
-		margin-right: 1em;
-	}
-
-	&::after {
-		content: '▰';
-		color: var(--accent);
-		margin-left: 1em;
-	}
 }
 
 .post__content p {

@@ -1,0 +1,17 @@
+.nav {
+	max-width: 600px;
+	padding: 2em;
+	box-shadow: 4px 4px 0 0 var(--foreground, black);
+	border: 2px solid var(--foreground, black);
+	margin: 4em auto;
+	box-sizing: content-box;
+}
+
+.nav__site-permalink {
+	display: block;
+	margin-bottom: 2em;
+}
+
+.nav__description {
+	margin: 0;
+}
