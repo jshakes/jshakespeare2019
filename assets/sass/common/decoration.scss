@@ -8,6 +8,8 @@
 	&::before {
 		content: '';
 		position: absolute;
+		box-sizing: content-box;
+		padding: $border-width;
 		width: 100%;
 		height: 100%;
 		z-index: -1;

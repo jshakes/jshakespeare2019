@@ -1,6 +1,7 @@
 @import "common/layout";
 @import "common/media-queries";
 @import "common/decoration";
+@import "common/resets";
 @import "base/normalize";
 @import "base/webfonts";
 @import "base/defaults";
@@ -8,5 +9,5 @@
 @import "components/homepage-content";
 @import "components/post-list";
 @import "components/post";
-@import "components/nav";
+@import "components/header";
 @import "components/cta";

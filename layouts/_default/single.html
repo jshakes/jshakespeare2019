@@ -1,17 +1,13 @@
 {{ define "main" }}
   <main>
-  	<nav class="nav">
-  		<a class="nav__site-permalink" href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
-      <p class="nav__description">James Shakespeare builds websites, like this one. He is from London and works at <a href="https://qz.com/user/777129/">Quartz</a> in New York.</p>
-  		<div class="nav__decoration" aria-hidden="true"></div>
-  	</nav>
-  	<article class="post">
+    {{ partial "nav.html" }}
+  	<div class="post">
   		<header class="post__header">
 		  	<h1 class="post__headline">{{.Title}}</h1>
 		  </header>
       <div class="post__content">
 	  	  {{.Content}}
       </div>
-	  </article>
+	  </div>
   </main>
 {{ end }}

@@ -1,0 +1,92 @@
+@mixin reset {
+	font-size: inherit;
+	font-family: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+}
+
+@mixin reset-appearance {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+@mixin reset-focus-styles {
+	/* Only remove focus styles when the user is using a pointing device */
+	:global(.intent-mouse) & {
+		&:focus,
+		&:active {
+			outline: none;
+		}
+	}
+}
+
+@mixin reset-button {
+	@include reset;
+	@include reset-appearance;
+	@include reset-focus-styles;
+
+	background-color: transparent;
+	background-image: none;
+	text-align: left;
+}
+
+@mixin reset-checkbox {
+	@include reset;
+	@include reset-appearance;
+	@include reset-focus-styles;
+
+	background-color: transparent;
+}
+
+@mixin reset-select {
+	@include reset;
+	@include reset-appearance;
+	@include reset-focus-styles;
+
+	background-color: transparent;
+}
+
+@mixin reset-ul {
+	@include reset;
+
+	list-style: none;
+}
+
+@mixin reset-text-input {
+	@include reset;
+
+	line-height: 2;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	background: transparent;
+	border: 0;
+
+	/* Added specificity to override iOS default styles */
+	&,
+	&[type=search] {
+		@include reset-appearance;
+
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+@mixin reset-summary {
+	@include reset;
+	@include reset-focus-styles;
+
+	/* Firefox applies default display of "list-item" */
+	display: block;
+	list-style: none;
+
+	&::-webkit-details-marker {
+		display: none;
+	}
+}
