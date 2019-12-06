@@ -1,15 +1,26 @@
+$border-width: 0.5em;
+
 .homepage-header {
+	@include fixed-gradient-border__container($border-width);
+
 	margin: 0.333333em 1em 2em 0.333333em;
 	padding: 2em;
-	position: relative;
-	box-shadow: 0.5em 0.5em 0 0 var(--foreground, black);
-	border: 0.25em solid var(--foreground, black);
+
+	// Fake box-shadow because of overlap issues with decoration
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-color: black;
+		bottom: $border-width * -2;
+		right: $border-width * -2;
+	}
 
 	@include larger-than(mobile) {
 		margin: 4em;
 		padding: 6em 8em;
-		border-width: 0.333333em;
-		box-shadow: 0.666666em 0.666666em 0 0 var(--foreground, black);
 	}
 }
 
@@ -22,20 +33,7 @@
 }
 
 .homepage-header__decoration {
-	font-size: 2em;
-
-	&::before {
-		content: '▰';
-	}
-
-	&::after {
-		content: '▰';
-		color: var(--accent);
-	}
-
-	@include larger-than(mobile) {
-		font-size: 4em;
-	}
+	@include fixed-gradient-border__decoration($border-width);
 }
 
 .homepage-header__permalink {

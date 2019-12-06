@@ -1,0 +1,49 @@
+$cta-border-width: 0.25em;
+
+.cta {
+	@include fixed-gradient-border__container($cta-border-width);
+
+	display: inline-flex;
+	align-items: center;
+	padding: 1em 2em;
+	text-decoration: none;
+	position: relative;
+
+	// Fake box-shadow because of overlap issues with decoration
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-color: black;
+		bottom: $cta-border-width * -2;
+		right: $cta-border-width * -2;
+	}
+
+	&:hover {
+		text-decoration: none;
+		border-color: var(--accent-1);
+		color: inherit;
+	}
+
+	&::after {
+		content: '☞';
+		margin-left: 1em;
+		font-size: 2em;
+		line-height: 1;
+	}
+
+	&:active {
+		margin: 2px -2px -2px 2px;
+
+		&::before {
+			bottom: 0;
+			right: 0;
+		}
+	}
+}
+
+.cta__decoration {
+	@include fixed-gradient-border__decoration($cta-border-width);
+}

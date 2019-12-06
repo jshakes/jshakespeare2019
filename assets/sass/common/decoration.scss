@@ -1,0 +1,29 @@
+@mixin fixed-gradient-border__container($border-width: 0.5em) {
+	position: relative;
+	border: solid $border-width transparent;
+	background: var(--background, white);
+	background-clip: padding-box;
+}
+
+@mixin fixed-gradient-border__decoration($border-width: 0.5em) {
+	position: absolute;
+	clip: rect(0, auto, auto, 0);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	margin: -$border-width;
+
+	&:before {
+		content: '';
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		border-radius: inherit;
+		background: linear-gradient(to bottom, var(--accent-1), var(--accent-2));
+	}
+}

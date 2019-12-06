@@ -1,13 +1,14 @@
 :root {
-  --accent: #ffd400;
+  --accent-1: #c61905;
+  --accent-2: #0646df;
   --background: white;
   --foreground: #242427;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #6E7591;
-    --foreground: #030303;
+    --background: #242427;
+    --foreground: white;
   }
 }
 
@@ -15,7 +16,7 @@
   box-sizing: border-box;
 
   &:focus {
-    outline: 0.25rem solid var(--accent, black);
+    outline: 0.25rem solid var(--accent-1, black);
   }
 
   &:active {
@@ -25,7 +26,7 @@
 
 ::selection {
   background: var(--foreground, black);
-  color: var(--background, white);
+  color: var(--accent-2, white);
 }
 
 body {
@@ -44,7 +45,7 @@ a {
   
   &:hover {
     text-decoration: underline;
-    text-decoration-color: var(--accent);
+    text-decoration-color: var(--accent-1);
   }
 }
 

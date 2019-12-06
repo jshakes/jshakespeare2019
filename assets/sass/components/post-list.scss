@@ -5,6 +5,10 @@
 
 .post-list__link {
 	display: block;
+
+	&:visited {
+		opacity: 0.75;
+	}
 }
 
 .post-list__item {

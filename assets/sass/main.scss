@@ -1,5 +1,6 @@
 @import "common/layout";
 @import "common/media-queries";
+@import "common/decoration";
 @import "base/normalize";
 @import "base/webfonts";
 @import "base/defaults";
@@ -9,3 +10,4 @@
 @import "components/post-list";
 @import "components/post";
 @import "components/nav";
+@import "components/cta";
