@@ -3,6 +3,18 @@
 	border: solid $border-width transparent;
 	background: var(--background, white);
 	background-clip: padding-box;
+
+	// Fake box-shadow because of overlap issues with decoration
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-color: black;
+		bottom: $border-width * -2;
+		right: $border-width * -2;
+	}
 }
 
 @mixin fixed-gradient-border__decoration($border-width: 0.5em) {

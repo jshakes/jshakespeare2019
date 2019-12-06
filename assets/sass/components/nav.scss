@@ -1,8 +1,8 @@
 .nav {
+	@include fixed-gradient-border__container(0.25em);
+
 	max-width: 600px;
 	padding: 2em;
-	box-shadow: 4px 4px 0 0 var(--foreground, black);
-	border: 2px solid var(--foreground, black);
 	margin: 4em auto;
 	box-sizing: content-box;
 }
@@ -14,4 +14,8 @@
 
 .nav__description {
 	margin: 0;
+}
+
+.nav__decoration {
+	@include fixed-gradient-border__decoration(0.25em);
 }
