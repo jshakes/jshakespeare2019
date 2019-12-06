@@ -7,31 +7,14 @@
 	box-sizing: content-box;
 }
 
+.header__nav {
+	margin-bottom: 2em;
+}
+
 .header__description {
 	margin: 0;
-	font-size: 1.4em;
 }
 
 .header__decoration {
 	@include fixed-gradient-border__decoration(0.25em);
-}
-
-.header__nav-items {
-	@include reset-ul;
-
-	display: flex;
-	margin-bottom: 2em;
-}
-
-.header__nav-item {
-	margin-right: 1em;
-
-	&::after {
-		content: '▰';
-		margin-left: 1em;
-	}
-
-	&:last-child::after {
-		content: none;
-	}
 }

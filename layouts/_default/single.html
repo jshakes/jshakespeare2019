@@ -1,13 +1,9 @@
 {{ define "main" }}
   <main>
     {{ partial "nav.html" }}
-  	<div class="post">
-  		<header class="post__header">
-		  	<h1 class="post__headline">{{.Title}}</h1>
-		  </header>
-      <div class="post__content">
-	  	  {{.Content}}
-      </div>
+  	<div class="page">
+		  <h1 class="page__heading">{{.Title}}</h1>
+	  	{{.Content}}
 	  </div>
   </main>
 {{ end }}

@@ -2,10 +2,10 @@
   <main>
   	{{ partial "nav.html" }}
   	<article class="post">
-  		<header class="post__header">
+  		<div class="post__header">
 		  	<h1 class="post__headline">{{.Title}}</h1>
 		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "1 January 2006"}}</time>
-		  </header>
+		  </div>
       <div class="post__content">
 	  	  {{.Content}}
       </div>

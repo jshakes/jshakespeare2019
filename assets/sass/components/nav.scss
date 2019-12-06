@@ -1,0 +1,18 @@
+.nav__items {
+	@include reset-ul;
+
+	display: flex;
+}
+
+.nav__item {
+	margin-right: 1em;
+
+	&::after {
+		content: '▰';
+		margin-left: 1em;
+	}
+
+	&:last-child::after {
+		content: none;
+	}
+}
