@@ -1,9 +1,6 @@
 .header {
-	@include fixed-gradient-border__container(0.25em);
-
 	max-width: 600px;
-	padding: 2em;
-	margin: 4em auto;
+	margin: 6em auto;
 	box-sizing: content-box;
 }
 
@@ -13,8 +10,4 @@
 
 .header__description {
 	margin: 0;
-}
-
-.header__decoration {
-	@include fixed-gradient-border__decoration(0.25em);
 }

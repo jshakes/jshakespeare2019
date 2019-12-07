@@ -1,0 +1,51 @@
+$base-font: 'Overpass', sans-serif;
+$code-font: 'Ubuntu Mono', 'Courier New', monospace;
+$display-font: $base-font;
+
+html {
+  font-family: $base-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+blockquote {
+  border-left: 2px solid #DEDEDE;
+  padding-left: 1em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+code {
+  font-family: $code-font;
+  line-height: 2;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-size: 1em;
+
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: $display-font;
+}

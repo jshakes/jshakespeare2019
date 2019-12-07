@@ -12,15 +12,9 @@
 }
 
 .post-list__item {
-	margin: 0 0 2em;
-	list-style: none;
-	position: relative;
+	@include custom-list-bullet('▰');
 
-	&::before {
-		content: '▰';
-		position: absolute;
-		left: -2em;
-	}
+	margin: 0 0 2em;
 }
 
 .post-list__heading {

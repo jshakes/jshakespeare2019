@@ -17,6 +17,25 @@
 	display: block;
 }
 
-.post__content p {
-	line-height: 1.666666;
+.post__content {
+	p,
+	li {
+		line-height: 1.666666;
+	}
+
+	ul {
+		padding: 0;
+		margin: 2em 0;
+	}
+
+	li {
+		@include custom-list-bullet('▰');
+
+		margin: 0 0 1em;
+	}
+
+	pre {
+		padding: 2em;
+		margin: 2em -2em;
+	}
 }

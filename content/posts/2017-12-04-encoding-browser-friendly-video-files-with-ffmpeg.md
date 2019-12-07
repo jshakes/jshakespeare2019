@@ -15,7 +15,9 @@ Ffmpeg is a hugely powerful tool. It supports just about every codec going and h
 
 On OSX, use [homebrew](https://brew.sh/) to build ffmpeg on your machine. Compiling ffmpeg with every available codec takes a long time, so we’ll just build with the three codecs we need:
 
-`brew install ffmpeg --with-libvpx --with-libx264 --with-libvorbis`
+```bash
+brew install ffmpeg --with-libvpx --with-libx264 --with-libvorbis
+```
 
 This can still take a fair bit of time (it took 15 minutes on my computer), so go and have a stretch or call your Grandma.
 
@@ -29,7 +31,9 @@ If you're wondering what the `--with` flags mean:
 
 `cd` into the directory containing your source/input video file and run the following command, replacing the filenames appropriately:
 
-`ffmpeg -i my-original-video.wmv -f webm -vcodec libvpx-vp9 -vb 1024k my-new-video.webm`
+```bash
+ffmpeg -i my-original-video.wmv -f webm -vcodec libvpx-vp9 -vb 1024k my-new-video.webm
+```
 
 There’s a bit going on here, so let’s break it down while you wait for your video to transcode.
 
@@ -47,7 +51,9 @@ If you wish to output a silent video, then you should pass the flag `-an` to tra
 
 Now run:
 
-`ffmpeg -i my-original-video.wmv -vcodec libx264 -f mp4 -vb 1024k -preset slow my-new-video.mp4`
+```bash
+ffmpeg -i my-original-video.wmv -vcodec libx264 -f mp4 -vb 1024k -preset slow my-new-video.mp4
+```
 
 The flags here are similar, except we’re using the libx264 codec to create a video with an MP4 container. The `-preset slow` flag increases the encoding time but results in a better quality-to-filesize ratio. [You should use the slowest preset that you have the patience for](https://trac.ffmpeg.org/wiki/Encode/H.264#Preset).
 
@@ -57,15 +63,17 @@ Again, you can tweak the bitrate flag for video (`-vb`) and audio (`-ab`), and p
 
 Now you can reference the files you’ve created within your HTML:
 
-{% highlight html %}
+```html
 <video>
   <source
     src="my-new-video.webm"
-    type="video/webm">
+    type="video/webm"
+  >
   <source
     src="my-new-video.mp4"
-    type="video/mp4">
+    type="video/mp4"
+  >
 </video>
-{% endhighlight %}
+```
 
 And that’s it! ffmpeg supports a huge number of options when encoding, transcoding or streaming multimedia, so be sure to refer to [the docs](https://ffmpeg.org/ffmpeg.html#Video-Options) if you need to achieve something that isn’t mentioned here.

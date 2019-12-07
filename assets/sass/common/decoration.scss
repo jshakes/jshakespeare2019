@@ -41,3 +41,14 @@
 		background: linear-gradient(to bottom, var(--accent-1), var(--accent-2));
 	}
 }
+
+@mixin custom-list-bullet($character) {
+	list-style: none;
+	position: relative;
+
+	&::before {
+		content: $character;
+		position: absolute;
+		left: -2em;
+	}
+}
