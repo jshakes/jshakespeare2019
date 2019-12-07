@@ -21,13 +21,13 @@ First off, create a group called `sftp`. This will contain all users we want to 
 
 Now, we tell OpenSSH that it can let anyone in the `sftp` group access their own home directories via SFTP. Open `/etc/ssh/sshd_config` and at the _end of the file_ paste this, which will let users SFTP into their own home directories (that’s what the `%h` is for):
 
-{% highlight bash %}
+```bash
 Subsystem sftp internal-sftp
 Match Group sftp
   ChrootDirectory %h
   ForceCommand internal-sftp
   AllowTcpForwarding no
-{% endhighlight %}
+```
 
 And reload the SSH config
 

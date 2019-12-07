@@ -20,8 +20,7 @@ Install this with npm using `npm install grunt-contrib-copy`
 
 In your Gruntfile, add a new config:
 
-{% highlight javascript %}
-
+```javascript
 grunt.config.set('copy', {
   templates: {
     files: [{
@@ -43,7 +42,7 @@ grunt.config.set('copy', {
   }
 });
 grunt.loadNpmTasks('grunt-contrib-copy');
-{% endhighlight %}
+```
 
 Notice that we’re writing two copy actions here to keep templates for different entities in separate directories. This will come in handy. Write one block for each directory of views in `app/views` that you wish to share with Marionette (or wherever your application's views are kept).
 
@@ -55,7 +54,7 @@ First install the jsttojs Grunt plugin with `npm install grunt-jsttojs`.
 
 Then declare the following configuration in your Gruntfile.
 
-{% highlight javascript %}
+```javascript
 grunt.config.set('jsttojs', {
   root: '.tmp/templates',
   output: 'assets/js/prod/templates.js',
@@ -66,7 +65,7 @@ grunt.config.set('jsttojs', {
 });
 
 grunt.loadNpmTasks('grunt-jsttojs');
-{% endhighlight %}
+```
 
 This will save all the templates to a global Javsacript object within our app namespace called `MyApp.templates`, though you can declare anything here, eg. `window.templates`.
 
@@ -78,7 +77,7 @@ We will now set up a watch task to update our template object every time we edit
 
 Install grunt-contrib-watch with `npm install grunt-contrib-watch`, then add the following config.
 
-{% highlight javascript %}
+```javascript
 grunt.config.set('watch', {
   templates: {
    files: ['app/views/**/*.html'],
@@ -86,7 +85,7 @@ grunt.config.set('watch', {
   },
 });
 grunt.loadNpmTasks('grunt-contrib-watch');
-{% endhighlight %}
+```
 
 Now run `grunt copy:templates && grunt jsttojs && grunt watch` to copy, compile and watch the templates.
 
@@ -100,7 +99,7 @@ Download marionette-swig with `bower install marionette-swig`, and include it in
 
 Finally, we need to tell Marionette to look in our templates object (`MyApp.templates`) for the templates we declare in our views. To do this we will override the template cache built into Marionette.
 
-{% highlight javascript %}
+```javascript
 Backbone.Marionette.TemplateCache.prototype.loadTemplate= function(templateId){
 
   var template, charZero;
@@ -125,20 +124,18 @@ Backbone.Marionette.TemplateCache.prototype.loadTemplate= function(templateId){
 
   return template;
 };
-{% endhighlight %}
+```
 
 
 ### Declaring templates in views
 
 Now we can simply declare our templates within our views by matching their path within `app/views`. Eg
 
-{% highlight javascript %}
+```javascript
 MyApp.InlineComment = Marionette.ItemView.extend({
  template: 'comment/inline',
  // ...
 });
-{% endhighlight %}
-
----
+```
 
 And there you have it. Just add new templates to your Gruntfile's copy config, and ensure they get copied and precompiled before you use them in the browser.

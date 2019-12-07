@@ -13,7 +13,7 @@ Wouldn’t it be nice if you could just include icons, positioned exactly how yo
 
 Using this Sass mixin, you can:
 
-{% highlight scss %}
+```scss
 @mixin icomoon($icon, $position: "before", $replace: false) {
   // If we're replacing the text, set font-size to 0
   @if $replace {
@@ -35,13 +35,13 @@ Using this Sass mixin, you can:
     @content;
   }
 }
-{% endhighlight %}
+```
 
 The mixin assumes two things:
 
 * You have already declared the ‘icomoon’ font-family using `@font-face` (grab this from Icomoon’s style.css).
 * You have classes assigned to each unicode character in your font file (this is more or less what Icomoon gives you in style.css, minus the `:before`), like this:
-{% highlight scss %}
+```scss
 .icon-search {
   content: "\e602";
 }
@@ -52,15 +52,15 @@ The mixin assumes two things:
   content: "\e606";
 }
 // ...
-{% endhighlight %}
+```
 
 ### Usage
 
 To use the mixin, just call:
 
-{% highlight scss %}
+```scss
 @include icomoon("myIcon");
-{% endhighlight %}
+```
 
 The first argument, `$icon`, accepts the icon name, minus the "icon-" prefix used to define the class.
 
@@ -68,12 +68,12 @@ For the second argument, `$position`, you can provide “before” or “after�
 
 The `$replace` argument is a bool that sets the font-size of the element's immediate contents to 0 when true. Note that while the mixin will attempt to restore the font-size of the icon to `1rem`, you should pass in a pixel-based font size value to the content block to reliably set the size of the icon.
 
-{% highlight scss %}
+```scss
 // Visually replace the contents of the element with the search icon
 @include icomoon("search", "before", true) {
   font-size: 20px;
 }
-{% endhighlight %}
+```
 
 Replacing text in this way is a good idea because it means the text is still there as a fallback for screen-readers or in case your stylesheet fails to load.
 

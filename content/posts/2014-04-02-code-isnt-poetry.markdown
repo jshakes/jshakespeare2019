@@ -26,19 +26,19 @@ But to argue for either a terse or verbose style is reductive. What we should ai
 
 Let’s consider a basic example. Ternary operators are often used by programmers to shorten three-way operations. If we wanted to represent the phrase 'red sky at night, shepherd's delight' in Ruby we could do so using a ternary operator like this
 
-{% highlight ruby %}
+```ruby
 forecast = sky_color == "red" ? "sunny" : "rainy"
-{% endhighlight %}
+```
 
 Or we could write it in longhand form
 
-{% highlight ruby %}
+```ruby
 forecast = if sky_color == "red"
   "sunny"
 else
   "rainy"
 end
-{% endhighlight %}
+```
 
 While the first example is more terse the second is certainly more readable. It may even be that the first takes longer for the developer to write, dependent on their familiarity with ternary operators.
 

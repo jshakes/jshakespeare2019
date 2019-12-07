@@ -9,7 +9,7 @@ Writing and maintaining media queries has become a snap since version 3.2 of Sas
 
 This made writing media queries much easier because we could define mixins for smaller-than-n and larger-than-n. These mixins act as filters that let us easily add width, height or resolution specific styles to definitions. The mixin accepts any styles defined within the content of the `@include` and adds them into a media query based on the value specified in the argument. For example, with the following mixins:
 
-{% highlight scss %}
+```scss
 @mixin smaller-than($width) {
   @media (max-width: $width) {
     @content;
@@ -21,11 +21,11 @@ This made writing media queries much easier because we could define mixins for s
     @content;
   }
 }
-{% endhighlight %}
+```
 
 We could write
 
-{% highlight scss %}
+```scss
 .heading {
   font-size: 2em;
   @include smaller-than(300px) {
@@ -35,11 +35,11 @@ We could write
     font-size: 3em;
   }
 }
-{% endhighlight %}
+```
 
 Which outputs this CSS
 
-{% highlight css %}
+```css
 .heading {
   font-size: 2em;
 }
@@ -53,11 +53,11 @@ Which outputs this CSS
     font-size: 3em;
   }
 }
-{% endhighlight %}
+```
 
 We could take this one step further and use variables for each device breakpoint, making our code more DRY-friendly.
 
-{% highlight scss %}
+```scss
 $mobile-width: 300px;
 $tablet-width: 768px;
 
@@ -75,7 +75,7 @@ $tablet-width: 768px;
 
   // ... Etc for each device
 }
-{% endhighlight %}
+```
 
 (You can read more about this technique on the <a href="http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32" target="_blank">Sass blog</a>)
 
@@ -83,7 +83,7 @@ The problem is, until now we’ve had to define our `smaller-than` and `larger-t
 
 The good news is Sass 3.3 includes full support for maps (aka hashes or data objects), which makes writing media queries even easier. Now we can declare all our breakpoints in one variable:
 
-{% highlight scss %}
+```scss
 $mqs: (
   mobile_portrait: 300px,
   mobile_landscape: 500px,
@@ -91,11 +91,11 @@ $mqs: (
   tablet_landscape: 1024px,
   desktop: 1280px
 );
-{% endhighlight %}
+```
 
 And use the new `map-get` function to access the values. That lets us whittle our mixins down to
 
-{% highlight scss %}
+```scss
 @mixin smaller-than($device) {
 
   $width: map-get($mqs, $device);
@@ -111,11 +111,11 @@ And use the new `map-get` function to access the values. That lets us whittle ou
     @content;
   }
 }
-{% endhighlight %}
+```
 
 We can even write a ‘between’ mixin
 
-{% highlight scss %}
+```scss
 @mixin between($smallest, $largest) {
 
   $min-width: map-get($mqs, $smallest);
@@ -124,17 +124,17 @@ We can even write a ‘between’ mixin
     @content;
   }
 }
-{% endhighlight %}
+```
 
 Which makes our media queries highly readable
 
-{% highlight scss %}
+```scss
 .heading {
   font-size: 2em;
   @include between(mobile_portrait, mobile_landscape) {
     font-size: 1.5em;
   }
 }
-{% endhighlight %}
+```
 
 By separating values and mixins using the above technique you can easily add, remove and edit breakpoints in one place. Your code becomes more readable and more maintainable as a result, and you go home with some serious internet points.
