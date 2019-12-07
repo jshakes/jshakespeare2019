@@ -6,3 +6,5 @@ params:
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
+permalinks:
+  posts: /:title
