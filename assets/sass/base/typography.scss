@@ -6,16 +6,26 @@ html {
 }
 
 blockquote {
-  border-left: 2px solid #DEDEDE;
-  padding-left: 1em;
-  font-style: italic;
-  margin-bottom: 1em;
+  font-family: $display-font;
+  position: relative;
+  padding: 0 2em;
+  margin: 0 0 2em;
+  font-size: 1.1em;
+
+  &::before {
+    content: '››';
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.5;
+    font-size: 1em;
+  }
 }
 
 code {
   font-family: $code-font;
   line-height: 2;
-  padding: 0 0.5em;
+  padding: 0 0.333333em;
   display: inline-block;
 }
 

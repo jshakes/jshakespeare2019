@@ -22,7 +22,7 @@ By building things on the web we are not artists or engineers or even creators. 
 
 Steve Jobs summed this notion up perfectly in a [1994 interview](https://www.youtube.com/watch?v=zut2NLMVL_k):
 
-_“It’s sort of like sediment of rocks. You’re building up a mountain and you get to contribute your little layer of sedimentary rock to make the mountain that much higher. But no one on the surface will ever see your sediment. They’ll stand on it; it’ll be appreciated by that rare geologist. But it’s not like the renaissance at all. It’s very different”_
+> It’s sort of like sediment of rocks. You’re building up a mountain and you get to contribute your little layer of sedimentary rock to make the mountain that much higher. But no one on the surface will ever see your sediment. They’ll stand on it; it’ll be appreciated by that rare geologist. But it’s not like the renaissance at all. It’s very different
 
 This doesn’t mean that we can have no legacy on the web. Almost every computer built during Steve Job’s tenure as Apple CEO is already obsolete, but his legacy is one of the most prominent of our time. Jobs stood on the shoulders of giants like Alan Kay, Alan Turing, Ada Lovelace and Charles Babbage. The legacies of these men and women are not in what they individually made during their lifetimes, but in the fact that you loaded this article in a fraction of a second and read it on a machine of vast complexity now, in 2014.
 
