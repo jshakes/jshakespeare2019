@@ -60,3 +60,13 @@ h6 {
   font-weight: normal;
   font-family: $display-font;
 }
+
+h1 {
+  @include larger-than(tablet) {
+    font-size: 2.5em;
+  }
+
+  @include larger-than(desktop) {
+    font-size: 3em;
+  }
+}

@@ -3,6 +3,7 @@
 }
 
 .page__heading {
-	font-size: 3em;
-	margin: 0 0 1.5em;
+	@extend h1;
+
+	margin: 0 0 1em;
 }

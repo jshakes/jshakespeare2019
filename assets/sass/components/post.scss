@@ -3,15 +3,9 @@
 }
 
 .post__headline {
+	@extend h1;
+
 	margin: 0;
-
-	@include larger-than(mobile) {
-		font-size: 2.5em;
-	}
-
-	@include larger-than(tablet) {
-		font-size: 3em;
-	}
 }
 
 .post__dateline {
