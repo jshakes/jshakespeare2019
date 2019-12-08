@@ -19,7 +19,7 @@ Describing a design system in code is important because mockups do not paint a c
 
 Building an interface is a translation from a simple language to a much more complex one. But no matter how skilled a developer is at building an interface, the first step must be always be to understand it. The only way to do that is to become bilingual.
 
-—
+---
 
 Programmers sometimes talk about “code smells”: surface-level indications that something about a program isn’t right. Sometimes a code smell is just a hunch; not something that can be identified straight away, but a loose thread that reveals a structural flaw when pulled. Much like the nasal assault that any parent of a small child is familiar with, a good programmer knows a foul smell indicates something dirty has happened and must be cleaned up sooner rather than later.
 
