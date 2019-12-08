@@ -3,12 +3,17 @@ $border-width: 0.5em;
 .homepage-header {
 	@include fixed-gradient-border__container($border-width);
 
-	margin: 0.333333em 1em 2em 0.333333em;
+	margin: 1em 1em 4em + $border-width;
 	padding: 2em;
 	font-family: $display-font;
 
 	@include larger-than(mobile) {
-		margin: 4em;
+		margin: 2em 2em 2em + $border-width;
+		padding: 4em;
+	}
+
+	@include larger-than(desktop) {
+		margin: 4em 4em 4em + $border-width;
 		padding: 4em 6em;
 	}
 }
@@ -16,7 +21,7 @@ $border-width: 0.5em;
 .homepage-header__contents {
 	max-width: 1024px;
 
-	@include larger-than(mobile) {
+	@include larger-than(tablet) {
 		padding-right: 15%;
 	}
 }
@@ -41,6 +46,14 @@ $border-width: 0.5em;
 	margin: 4rem 0;
 
 	@include larger-than(mobile) {
+		font-size: 1.75em;
+	}
+
+	@include larger-than(tablet) {
+		font-size: 2em;
+	}
+
+	@include larger-than(desktop) {
 		font-size: 2.5em;
 	}
 

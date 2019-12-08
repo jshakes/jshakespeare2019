@@ -1,15 +1,3 @@
-.homepage-content {
-	padding: 0 1em;
-	max-width: $content-max-width;
-	margin: 4em auto;
-	line-height: 2;
-
-	@include larger-than(mobile) {
-		padding: 0;
-		margin: 8em auto;
-	}
-}
-
 .homepage-content__section {
 	margin-bottom: 4em;
 }

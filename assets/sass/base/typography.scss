@@ -2,7 +2,11 @@ html {
   font-family: $base-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: $base-font-size;
+  font-size: 100%;
+
+  @include larger-than(mobile) {
+    font-size: 125%;
+  }
 }
 
 blockquote {

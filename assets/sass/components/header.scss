@@ -1,8 +1,10 @@
 .header {
 	font-family: $display-font;
-	max-width: $content-max-width;
-	margin: 6em auto;
-	box-sizing: content-box;
+	margin: 3em 0;
+
+	@include larger-than(tablet) {
+		margin: 6em 0;
+	}
 }
 
 .header__nav {
