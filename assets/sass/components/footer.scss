@@ -1,0 +1,7 @@
+.footer {
+	@include constrain;
+
+	font-family: $display-font;
+	margin-top: 6em;
+	margin-bottom: 4em;
+}

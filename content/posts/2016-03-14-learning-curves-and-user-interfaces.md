@@ -57,4 +57,3 @@ The cost of misjudging learning curves is frustration for the user. If an interf
 Once a learning curve has been established we can more easily make decisions about a digital interface. Should we nest items in this menu so it’s easier to navigate for power users, or will new users struggle to find things? Should we add tooltips to educate new users, or will that be patronizing for existing ones?
 
 Good interface design means recognizing what solutions are appropriate for which demographics and in which contexts. It means setting aside our assumptions and talking to users about their priorities rather than imposing ours upon them. It means watching people use a product - not just for five minutes but over the course of days, weeks and months. Being aware of learning curves and how they differ across different groups of people means we can build interfaces that make users happy. What’s more important than that?
-

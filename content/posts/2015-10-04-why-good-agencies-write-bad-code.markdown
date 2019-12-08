@@ -12,7 +12,7 @@ I’ve spent most of my career working at small web development agencies. In tha
 
 I wanted to understand what it, if anything, makes agencies more susceptible to technical debt than other organizations. To do that, it’s necessary to look at how agencies make money.
 
-### How agencies operate
+## How agencies operate
 
 For those unfamiliar with how an agency does business, the lifecycle of almost every project I have worked on at an agency has looked like this:
 
@@ -29,7 +29,7 @@ Assuming a healthy flow of business it is in a growing agency’s best interest 
 
 This is because rapid project turnaround suits both client and the agency alike. The client wants to receive a quality product as cheaply and as quickly as possible, so an agency that can deliver that product in a short timeframe is attractive. For the agency, fast turnaround means they can win progressively more lucrative contracts more quickly - or simply put, grow faster. Each time a project lifecycle is completed the agency earns exposure and reputation, which may also make their services worth more money. Retainer contracts and long projects may guarantee revenue, but they also represent a plateau in growth.
 
-### Why agencies accrue technical debt
+## Why agencies accrue technical debt
 
 By this logic it is actually more pragmatic for a growth-focused agency to deliver projects with high levels of technical debt. While project constraints may be demanding, there is no long term period in which it will be the agency’s responsibility to repay that debt. The agency knows they can turn out debt-laden code because there’s too short of a development time for it to be a problem for them. This is not to say the end product will be bad, just that the codebase is not optimized for a long life span.
 
@@ -45,7 +45,7 @@ Whatever the reason, agencies are not _aiming_ to write debt-laden code, nor are
 
 In other words, the end product is cheaper (or delivered sooner) _because_ it comes with some degree of debt built into it. 
 
-### How agencies accrue technical debt
+## How agencies accrue technical debt
 
 So far I’ve argued that growing agencies are generally better off taking on short term projects, and that it is acceptable for those projects to be delivered with some degree of technical debt. But what happens when that agency reaches a point at which short projects no longer make financial sense? So far I have used the six month heuristic to delineate projects between simple and complex, so what if an agency lands a year-or-more long contract?
 
@@ -55,7 +55,7 @@ There are of course many agencies that undertake projects of vast complexity wit
 
 In my experience there are two reasons that agencies accrue debt faster than other organizations.
 
-#### 1) Biting off more than developers can chew
+### 1) Biting off more than developers can chew
 
 This is caused by an agency either trying to grow too fast; lack of communication between the team responsible for winning new business and the development team; or both.
 
@@ -69,7 +69,7 @@ If you consider a leap in project complexity (and thus financial value) to be a 
 
 Biting off more than you can chew is a problem with management at the company level. Another root of technical debt at agencies lies in management at the project level.
 
-#### 2) Making too many assumptions about client understanding
+### 2) Making too many assumptions about client understanding
 
 Everyone knows that assumptions make an ass out of ‘u’ and ‘mptions’. But before I talk about why assumptions can lead to technical debt, I want to clarify what they are.
 
@@ -107,7 +107,7 @@ Avoiding assumptions during a project at an agency means emulating as accurately
 
 While reasonable assumption-making can be a valid alternative to early stage research, it is essential that agencies be aware of lazy assumptions they are making too. In particular, assumptions should never be carried into the development phase if they can be proven or disproven simply by better communication with the client. Weighing up the cost of assumptions against their potential to accrue technical debt and other problems later on is an important part of effectively managing any software project, but this is especially important at an agency where the understanding of the developers, users and clients must align as closely as possible.
 
-### Common? Yes. Unavoidable? No.
+## Common? Yes. Unavoidable? No.
 
 Ultimately, a development project at an agency isn’t so very different from a development project anywhere else, and for the most part technical debt can be treated the same. While technical debt may be more likely to accrue in an agency environment (especially fast-growing ones) due to the nature of how they make money, it is not unavoidable. Being aware of technical debt and understanding how to reduce and strategically increase it can give agencies a powerful tool in tackling projects. Instead of letting debt spiral out of control and ruin a codebase - and possibly reputation, it can be leveraged in such a way that suits the timescale and complexity of a project for all parties involved.
 

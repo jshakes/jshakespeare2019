@@ -50,7 +50,7 @@
 
 		@include larger-than(mobile) {
 			padding: $page-margin-tablet;
-			margin: 2em -$page-margin-tablet;
+			margin: 2em $page-margin-tablet * -1;
 		}
 
 		@include larger-than(desktop) {

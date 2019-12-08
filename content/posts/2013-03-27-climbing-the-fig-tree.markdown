@@ -10,7 +10,6 @@ wordpress_id: 1028
 
 > "I saw my life branching out before like the green fig-tree in the story… I saw myself sitting there in the crotch of this fig-tree, starving to death, just because I couldn't make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet."
 
-
 —Sylvia Plath, _The Bell Jar_
 
 As a web developer in my twenties I often feel overwhelmed by the sheer breadth and depth of the potential career paths open to me. Working in an underskilled, high-value industry where money is practically thrown at anything resembling a good idea feels just about as close to being the kid in the proverbial candy shop as one can get.

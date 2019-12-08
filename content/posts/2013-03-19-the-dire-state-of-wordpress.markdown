@@ -22,8 +22,6 @@ If you think I'm exaggerating or being deliberately hyperbolic to prove a point,
 
 I'm not going to list all the things that make WP at odds with best practises, but here are the brass tacks:
 
-
-
 	
   * Views, controllers and data are mangled together in a way that makes even the most well-written themes hard to maintain.
 
@@ -48,25 +46,25 @@ I'm not going to list all the things that make WP at odds with best practises, b
 
 
 
-#### Why is all this a problem?
+## Why is all this a problem?
 
 
 Wordpress' growth isn't going to stop. For agencies and designers it's becoming a de facto platform for cookie-cutter websites with a development time of roughly 10-100 hours. This isn't necessarily a problem if you're a competent developer and know the ins and outs of WP, but undoubtedly anyone working in this field will inherit legacy WP code from time to time. And because Wordpress doesn't insist on any kind of template structure beyond a basic naming convention, codebase inheritance requires an unsustainable investment of time to figure just what the hell is going on. Even a fairly tidy theme probably won’t look remotely like any of yours.
 
 
-#### Why not just use something else?
+## Why not just use something else?
 
 
 Because Wordpress is still far and away the best off-the-shelf platform for small to medium size websites. It has arguably the best UI, a ton of features that come for free, a huge community of developers and all of the benefits that come with being a hugely popular piece of software. These things are much harder to come by than a decent codebase.
 
 
-#### What should be done?
+## What should be done?
 
 
 Wordpress needs more rules. People treat it like a framework and largely it is, but it lacks the scalability and rules that make frameworks worth using. Instead of forcing front-end developers and back-end developers to share the same resources there needs to be some separation of design and functionality. Having more rules would make inheriting code and working in a team easier. It would mean developers with framework-agnostic coding principles would be able to quickly get up and running within Wordpress sites without having to learn a backwards and entirely domain-specific vernacular.
 
 
-#### Wordpress is OSS, why don't you shut up and do it yourself?
+## Wordpress is OSS, why don't you shut up and do it yourself?
 
 
 The kind of rewrite I'm talking about would require a fundamental rethink of the entire platform. We're talking thousands of man-hours for no direct financial reward. If Automattic were to do this it would require a shakeup of their business model, given they don't make any money directly from the Wordpress codebase.

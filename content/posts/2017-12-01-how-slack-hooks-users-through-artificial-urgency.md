@@ -31,7 +31,7 @@ If the main reason to use Slack is because it shouts the loudest, should we real
 
 Slack as a company is not hell-bent on ruining our productivity or stressing us out with feelings of bombardment or FOMO, but they are in the business of making as many people as possible dependent on their product as possible. Sometimes it’s best to step away from Slack, consider what we want to say, and schedule a time to say it. Perhaps then we can actully be more productive, less stressed, and just a little bit happier.
 
-#### References
+## References
 
 1. [https://expandedramblings.com/index.php/slack-statistics/](https://expandedramblings.com/index.php/slack-statistics/)
 2. [https://sproutsocial.com/insights/facebook-stats-for-marketers/](https://sproutsocial.com/insights/facebook-stats-for-marketers/)

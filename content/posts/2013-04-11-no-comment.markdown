@@ -14,9 +14,6 @@ image: no-comment.jpg
 But let’s think about what value a comment form actually adds to a site. Should we simply assume that because comments bring added engagement that they are always a good thing? When you reach the end of this article, you will notice there are no comments. It's a decision that I have made both as a designer looking to optimise the user experience of my site and as a writer looking to foster discussion in a wider sphere.
 
 
-#### Keep scrollin' scrollin' scrollin' scrollin’
-
-
 When was the last time you stopped scrolling when you reached the end of an article you felt engaged with? If there’s content below that article then the likelihood is that you’re going to read that too - or at least skim it.
 
 This is because of a key principle in the study of HCI called [Information Foraging](http://en.wikipedia.org/wiki/Information_foraging). It's the same instinctive nature that makes animals follow a scent to find food in the wild. On a computer, if we're following an information trail and receiving clues that it is taking us closer to what we're searching for, then we'll keep going. From [Jakob Nielsen](http://www.nngroup.com/articles/information-scent/):
@@ -30,10 +27,6 @@ Let's think about this theory in terms of content on a single web page. Someone 
 Before the user has had a chance to process what they've read and form their own opinion, the content of the article has blurred into the responses of others. The stream of information that was so fervently stimulating their grey matter mere seconds ago has descended into a clattering of opinions that rapidly drowns out the intended message of the article. It's the equivalent of reaching the end of a book and having a mob of other readers immediately descend on you, everyone trying to make their review heard above the fray. They could all have valid opinions on what you've just read, but with everyone shouting over each other it's more likely to inhibit your ability to process information than it is to aid it.
 
 The real kicker of this is that the content below the article is likely to have a greater power of retention than the article itself. This is thanks to another psychological phenomenon known as [Recency Effect](http://en.wikipedia.org/wiki/Recency_effect#Recency_effect), an observation that people are more likely to recall the items at the end of a list than the items preceding them. Coupled with compulsive 'overflow' scrolling this means users are most likely walking away with someone else’s message; not ideal if you’re trying to inform or make a point. (This is especially bad news for vote-based comment systems that see less popular comments get pushed to the bottom.)
-
-
-#### A comment is not a discussion
-
 
 Of course, this logic flies in the face of modern-day thinking around democratised content - in which user engagement is to be prized above all else. But even you do consider this to be the holy grail, there still remains another problem: the traditional format of comments is terrible for discussion.
 

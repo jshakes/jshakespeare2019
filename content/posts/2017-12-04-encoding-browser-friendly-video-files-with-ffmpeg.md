@@ -11,7 +11,7 @@ There are only two [file types](https://developer.mozilla.org/en-US/docs/Web/HTM
 
 Ffmpeg is a hugely powerful tool. It supports just about every codec going and has a relatively simple interface. With that said, it does require you have at least a basic knowledge of multimedia encoding, so it can be a little daunting if you’re just looking to create the necessary files to use the  [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) tag on your site. Here’s a step by step guide to getting the files you need for any browser to natively play your video.
 
-### Install ffmpeg
+## Install ffmpeg
 
 On OSX, use [homebrew](https://brew.sh/) to build ffmpeg on your machine. Compiling ffmpeg with every available codec takes a long time, so we’ll just build with the three codecs we need:
 
@@ -27,7 +27,7 @@ If you're wondering what the `--with` flags mean:
 * libvorbis contains an implementation of the [Ogg Vorbis](https://xiph.org/vorbis/) encoder that is used for encoding audio tracks in the WebM container.
 * [libx264](https://www.videolan.org/developers/x264.html) is a codec from VideoLAN (who make VLC) that lets us encode H.264 video and audio into the MP4 container.
 
-### Create the WebM file
+## Create the WebM file
 
 `cd` into the directory containing your source/input video file and run the following command, replacing the filenames appropriately:
 
@@ -47,7 +47,7 @@ By default, the audio track will be transcoded to the output file using the libv
 
 If you wish to output a silent video, then you should pass the flag `-an` to transcode the video without an audio track. This must go immediately before the output file name, e.g. `[...] -an my-new-video.webm`. This is useful for adhering to [iOS Webkit's](https://webkit.org/blog/6784/new-video-policies-for-ios) requirements for supporting the HTML5 video `inline` and `autoplay` attributes.
 
-### Create the MP4 file
+## Create the MP4 file
 
 Now run:
 
@@ -59,7 +59,7 @@ The flags here are similar, except we’re using the libx264 codec to create a v
 
 Again, you can tweak the bitrate flag for video (`-vb`) and audio (`-ab`), and pass the `-an` flag before the output file name if you want to encode the video without an audio channel.
 
-### Embed the files with `<video>`
+## Embed the files with `<video>`
 
 Now you can reference the files you’ve created within your HTML:
 

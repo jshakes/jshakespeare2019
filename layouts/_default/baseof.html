@@ -14,7 +14,8 @@
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
     {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+      <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+      <footer class="footer">© James Shakespeare {{ dateFormat "2006" now }}</footer>
     {{ end }}
   </body>
 </html>

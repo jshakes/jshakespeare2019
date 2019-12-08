@@ -9,21 +9,21 @@ I've had varying opinions about keeping a diary throughout my life, ranging from
 
 But while an adolescence spent playing RPGs has left me with little more than an appreciation for well-distributed XP and comically large swords, five years of semi-regular diary-keeping means I now own an archive of my life that I prize among my greatest possessions. What's more, the act of writing a diary is a low-effort, zero-cost form of therapy that anyone can benefit from.
 
-### Why keep a diary?
+## Why keep a diary?
 
-#### Improved memory retention
+### Improved memory retention
 
 I started keeping a diary after becoming frustrated with how easily I would forget recent events. Every Monday morning, people at work would ask me what I did at the weekend while we stood around in the kitchen. I would always stand there looking vacant while I desperately sorted through the murky depths of my brain before exclaiming “I took a shower on Saturday!”.
 
 A diary is a more reliable and less degradable record of events than memory will allow for. But more importantly, the _act_ of recording events can help you better retain them mentally. The process of recalling and organizing events after they have happened aids with a process called memory consolidation, the transfer from short-term to long-term memory. If we don't deliberately recall the otherwise unremarkable events of the day, we forget them. 
 
-#### Routine mindfulness
+### Routine mindfulness
 
 Taking any time out of your day to be mindful is good for you, and keeping a diary is one easy way to do this. It forces you to stop and recap, even if only at a superficial level, what happened to you in the past 24 hours. One of the pleasant side effects of documenting your day is that it is often done in an environment more likely to promote mindfulness than that in which the event took place. You may look back on an experience shared with other people and have an entirely different perspective when you're alone and able to reflect more deeply.
 
 This becomes especially useful in avoiding destructive habits and promoting positive ones. If you notice that every few weekends for the past six months you have written 'woke up late and felt miserable that I had wasted the day', you are able to identify a cause and effect relationship that you can begin to counteract.
 
-#### A record of past selves
+### A record of past selves
 
 One of the most delightfully simple reasons to keep a diary is that you have a unique set of experiences that no one else can write about. Each day you can record what kind of a person you are at this exact point in time, and to be able to revisit that person when you're older is a truly valuable asset. In an essay entitled “On Keeping a Notebook”, Joan Didion said "Remember what it was to be me: that is always the point… We forget all too soon the things we thought we could never forget. We forget the loves and the betrayals alike, forget what we whispered and what we screamed, forget who we were.”
 
@@ -31,13 +31,13 @@ Leaving your future perception of your current self to the haziness of memory is
 
 "How we spend our days is, of course, how we spend our lives", wrote Anne Dillard, and if you believe that then you must record the dramatic and the mundane events alike.
 
-#### Good practice
+### Good practice
 
 To quote a third literary titan, Virginia Woolf wrote of diary-keeping that "the habit of writing thus for my own eye only is good practice. It loosens the ligaments”. 
 
 It is incredibly liberating to write something that will never be read by anyone else. It offers a chance to play with language, to experiment with new words we aren't quite sure how to use yet, to try a different voice or just write sloppily. No editing is required and there's no need to think about audience or worry about pleasing or offending anyone. There's no deadline and no external pressures whatsoever. Thoughts can pour, honest and unfiltered, straight from the mind to the page. How often do we get to write like that?
 
-### How to keep a diary
+## How to keep a diary
 
 There are many ways you can keep a diary. You can keep notes on your computer, write in a book, or create audio memos on your phone. The only criteria are that you record them privately and habitually.
 

@@ -49,11 +49,11 @@
 	&::before {
 		content: $character;
 		position: absolute;
-		left: $page-margin-mobile * -1;
+		left: -$page-margin-mobile;
 		line-height: inherit;
 
 		@include larger-than(mobile) {
-			left: $page-margin-tablet * -1;
+			left: -$page-margin-tablet + 0.666666em;
 		}
 	}
 }

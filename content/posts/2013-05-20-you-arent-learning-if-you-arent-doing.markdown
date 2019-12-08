@@ -15,9 +15,7 @@ But learning purely to avoid atrophy won't ever help you achieve a demonstrably 
 
 In other words, we must create a knowledge vacuum, not simply crowbar more information into an already overloaded brain.
 
-
-#### Necessity is the mother of learning
-
+## Necessity is the mother of learning
 
 Case in point - I've been learning Rails, or rather _intending_ to learn Rails, on and off for longer than I care to say. I'm still entirely incompetent because, although the framework excites me, until recently I haven't the incentive of seeing it solve real need. Only when I thought up an idea for a real-world Rails app did I really start to ramp up the learning process.
 

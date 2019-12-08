@@ -54,7 +54,7 @@ The mixin assumes two things:
 // ...
 ```
 
-### Usage
+## Usage
 
 To use the mixin, just call:
 
