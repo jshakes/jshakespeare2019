@@ -9,7 +9,7 @@ $border-width: 0.5em;
 
 	@include larger-than(mobile) {
 		margin: 4em;
-		padding: 5em 8em;
+		padding: 4em 6em;
 	}
 }
 
@@ -38,10 +38,10 @@ $border-width: 0.5em;
 .homepage-header__subtitle {
 	font-size: 1.666666em;
 	line-height: 1.333333;
-	margin: 5rem 0;
+	margin: 4rem 0;
 
 	@include larger-than(mobile) {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 
 	a {
