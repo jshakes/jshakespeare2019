@@ -1,5 +1,6 @@
 .header {
-	max-width: 600px;
+	font-family: $display-font;
+	max-width: $content-max-width;
 	margin: 6em auto;
 	box-sizing: content-box;
 }

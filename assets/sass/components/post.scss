@@ -1,5 +1,5 @@
 .post {
-	max-width: 600px;
+	max-width: $content-max-width;
 	margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@
 .post__dateline {
 	margin-top: 2em;
 	display: block;
+	font-family: $display-font;
 }
 
 .post__content {

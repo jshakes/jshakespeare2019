@@ -4,6 +4,7 @@ $cta-border-width: 0.25em;
 	@include fixed-gradient-border__container($cta-border-width);
 
 	display: inline-flex;
+	font-family: $display-font;
 	align-items: center;
 	padding: 1em 2em;
 	text-decoration: none;

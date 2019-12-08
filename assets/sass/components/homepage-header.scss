@@ -5,6 +5,7 @@ $border-width: 0.5em;
 
 	margin: 0.333333em 1em 2em 0.333333em;
 	padding: 2em;
+	font-family: $display-font;
 
 	@include larger-than(mobile) {
 		margin: 4em;
