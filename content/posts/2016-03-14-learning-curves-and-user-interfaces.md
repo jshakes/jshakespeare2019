@@ -14,21 +14,21 @@ These factors are important because they can be used to plot learning curves: ex
 
 An interface with a logarithmic learning curve (one that levels out over time) is more intuitive. It enables the user to quickly familiarize themselves with the features of the product. Intuitive learning curves mean less time must be invested to become competent with the product, but in exchange there is a reduction in how proficient the user can become over time. Take, for example, a French press.
 
-{% include components/figure.html src="/assets/images/post_images/french-press.jpg" caption="The interface of a French press is intutive, but not powerful (photo by Don LaVange, https://flic.kr/p/cmthoq)" %}
+{{< figure src="/post_images/french-press.jpg" caption="The interface of a French press is intutive, but not powerful (photo by Don LaVange, https://flic.kr/p/cmthoq)" >}}
 
 The simplicity of a French press' interface means that a user can quickly understand the mechanism of the product, how to operate it and can predict what the outcome will be. Pour water and ground coffee into the pot, wait a few minutes, push the top down, pour coffee. The learning curve for a French press looks something like this:
 
-{% include components/figure.html src="/assets/images/post_images/logarithmic.png" %}
+{{< figure src="/post_images/logarithmic.png" >}}
 
 The time required to reach competence (making a decent cup of coffee) is fairly short, but the curve quickly flattens off as we reach the maximum potential of the product. There is a little more proficiency available after reaching competence, such as learning to adjust the amount of coffee used or to heat the pot first to reduce cooling time. After this the curve levels off as the user reaches mastery of the product.
 
 An interface with an exponential learning curve (one that curves upward over time) is more powerful. A powerful interface offers the user more control over a product. It requires a greater time investment to reach competence but offers the user an increased maximum proficiency. In contrast to a French press, consider a café-grade espresso machine.
 
-{% include components/figure.html src="/assets/images/post_images/espresso-machine.jpg" caption="An espresso machine interface offers more power, but requires a greater initial investment of time (photo by Felipe Neves, https://flic.kr/p/aWEoia)" %}
+{{< figure src="/post_images/espresso-machine.jpg" caption="An espresso machine interface offers more power, but requires a greater initial investment of time (photo by Felipe Neves, https://flic.kr/p/aWEoia)" >}}
 
 To an inexperienced user there’s more to process and this means an increase in the time and brainpower required to make an acceptable of coffee. Grind the beans into the portafilter, tamp the coffee, attach and run water through the portafilter, add hot water as desired. The learning curve here would look more like this:
 
-{% include components/figure.html src="/assets/images/post_images/exponential.png" %}
+{{< figure src="/post_images/exponential.png" >}}
 
 The added complexity of the interface means there is more potential for inexperienced users to fail than when operating a French press. But with practice the user will be able to pull a good espresso, and from there they can become a more skilled barista than the French press owner as they learn to make cappuccinos, flat whites and other caffeinated delights.
 
@@ -36,7 +36,7 @@ All user interfaces have learning curves. Manual vs. automatic transmission in c
 
 This trade-off is not necessarily based around the available features of the product itself or even the complexity of the actions a proficient user might make. An interface for a complex piece of machinery might be intuitive but fail to offer an experienced user the ability to perform actions better or more effectively than a less experienced user. Take for example this interface for a cherry picker crane:
 
-{% include components/figure.html src="/assets/images/post_images/cherry-picker-interface.jpg" caption="The control panel of a cherry picker crane" %}
+{{< figure src="/post_images/cherry-picker-interface.jpg" caption="The control panel of a cherry picker crane" >}}
 
 This crane is obviously a complex piece of machinery, but the interface does an excellent job of making clear how each switch will affect its position. However, the interface is not powerful (in the sense that we are defining it) because an experienced user must still navigate a relatively cumbersome set of switches over a large area, even once they know exactly what each one does.
 

@@ -101,7 +101,7 @@ False assumptions are problematic because they have a nasty habit of coming to l
 
 The more false assumptions that must be accounted for late in a project’s development, the higher the likelihood of technical debt accruing.
 
-{% include components/figure.html src="/assets/images/post_images/technical-debt-flow-chart.jpg" caption="The more revisions are made, the greater the likelihood that corners will be cut, as project time and budget are reduced with each iteration." %}
+{{< figure src="/post_images/technical-debt-flow-chart.jpg" caption="The more revisions are made, the greater the likelihood that corners will be cut, as project time and budget are reduced with each iteration." >}}
 
 Avoiding assumptions during a project at an agency means emulating as accurately as possible the end product before construction begins. By capturing the less tangible aspects of a product, such as UX and performance, the client’s vision for the product will align more closely with the agency’s and there will be fewer surprises when the client starts using the product for the first time. Good communication and prototyping are the two things I consider to be most crucial to closing the assumption gap between agency and client.
 

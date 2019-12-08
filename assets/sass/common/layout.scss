@@ -4,7 +4,7 @@
 	padding: 0 $page-margin-mobile;
 
 	@include larger-than(mobile) {
-		padding: $page-margin-tablet;
+		padding: 0 $page-margin-tablet;
 		max-width: $content-max-width-tablet;
 	}
 

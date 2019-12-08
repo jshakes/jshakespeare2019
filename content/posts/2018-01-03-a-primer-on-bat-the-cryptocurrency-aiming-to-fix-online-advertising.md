@@ -19,7 +19,7 @@ All this is not to say that alternatives have not been tried. Paywalls, usually 
 
 Recently, a third revenue stream has proved an unlikely success for some online publishers: voluntary donations from users. In 2014, The Guardian, faced with falling ad revenue, made a plea to its readers. Instead of putting up a paywall, which would go against the paper’s idea of a free and open internet, they asked for grassroots support in the form of voluntary memberships. It was the carrot to the paywall's stick, and it worked. Since then, The Guardian has grown its paying membership to 300,000. Despite comprising less than 0.01% of the site’s [34.7 million monthly visitors](https://advertising.theguardian.com/audience), The Guardian's revenue from members now [exceeds that of advertising](https://www.theguardian.com/membership/2017/oct/26/together-we-are-safeguarding-the-guardians-independent-journalism).
 
-{% include components/figure.html src="/assets/images/post_images/guardian-donations-plea.png" caption="The Guardian's plea for support. The company now earns more from reader donations than from advertising revenue" %}
+{{< figure src="/post_images/guardian-donations-plea.png" caption="The Guardian's plea for support. The company now earns more from reader donations than from advertising revenue" >}}
 
 Grassroots support like this is becoming increasingly popular online. Fans routinely tip Youtubers and Twitchers using Patreon, and sites like Kickstarter and GoFundme allow users to crowdfund everything from new board games and watches to medical bills and political campaigns. Former employees of Gawker, bankrupt since losing a high-profile court case last year, are asking people to chip in for the media organization's revival in a $500,000 [Kickstarter campaign](https://www.kickstarter.com/projects/2136064924/save-gawkercom?ref=discovery). If it succeeds, they claim, it will return as "an ownerless, advertiser-less, non-profit media organization”.
 
@@ -33,7 +33,7 @@ Eich is spearheading the creation of Brave, a web browser with a focus on privac
 
 But instead of just being another piece of ad-blocking tech, Brave aims to reinvent the advertising model altogether to make a fairer deal for publishers and advertisers as well as users. The browser ships with Brave Payments, a wallet that lets users pay publishers as they browse, based on a voluntary monthly budget. 
 
-{% include components/figure.html src="/assets/images/post_images/brave-payments-wallet.png" caption="The Brave Payments wallet. Sites eligible to receive donations are listed in order of how much time the user has spent visiting them. A green checkmark indicates that site has signed up to receive payment" %}
+{{< figure src="/post_images/brave-payments-wallet.png" caption="The Brave Payments wallet. Sites eligible to receive donations are listed in order of how much time the user has spent visiting them. A green checkmark indicates that site has signed up to receive payment" >}}
 
 Brave users fund their wallet with a cryptocurrency called Basic Attention Token (BAT). The premise of BAT is that user attention has an intrinsic value that drives the digital economy. BAT aims to be a monetary representation of this attention, whether it is to editorial content, video, advertising, games, and so on. At the time of writing, 1 BAT is worth roughly 0.50 USD.
 
@@ -47,7 +47,7 @@ Whether or not a user chooses to see ads could be a useful toggle depending on c
 
 The ads that Brave users can opt in to seeing will be different to the kind of ads we’re used to. Brave will use its own ad exchange, which will serve only carefully vetted, lightweight, UX-compliant, non-snooping ads. The ads will be served from a local ad cache, so there is no need for them to send any data remotely, nor will they rely on third party information about the user in order to serve ads in a relevant way. Since the user already trusts their browser, it is not a violation of privacy for the Brave ad exchange to use local data such as browsing history. Even analytics data about an ad’s impressions and click-through rates, metrics that are vital for advertisers in order to know the effectiveness of a campaign, will maintain the user’s anonymity through the user of zero-knowledge proofs.
 
-{% include components/figure.html src="/assets/images/post_images/bat-diagram.png" caption="The user/publisher/advertiser payment model on which BAT is based. From https://basicattentiontoken.org/" %}
+{{< figure src="/post_images/bat-diagram.png" caption="The user/publisher/advertiser payment model on which BAT is based. From https://basicattentiontoken.org/" >}}
 
 Because BAT is not tethered to Brave, it could have many applications outside of web browsing. If successful, we could see its use in on-demand streaming services or in video games, where BAT accrued by watching interstitial or in-game ads could be redeemed against subscription fees. It is this open-endedness that makes the project such an exciting prospect.
 

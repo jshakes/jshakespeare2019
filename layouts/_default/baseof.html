@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     {{ with resources.Get "sass/main.scss" | toCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>
     {{ end }}
