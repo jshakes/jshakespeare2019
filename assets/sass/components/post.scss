@@ -24,19 +24,37 @@
 		line-height: 1.666666;
 	}
 
+	ol,
 	ul {
 		padding: 0;
 		margin: 2em 0;
 	}
 
 	li {
-		@include custom-list-bullet('▰');
-
 		margin: 0 0 1em;
+	}
+
+	ul li {
+		@include custom-list-bullet('▰');
 	}
 
 	pre {
 		padding: 2em;
 		margin: 2em -2em;
 	}
+}
+
+.post__footer {
+	margin-top: 3em;
+
+	&::before {
+	  content: '▰';
+		text-align: center;
+		display: block;
+		margin-bottom: 3em;
+	}
+}
+
+.post__postscript {
+	font-style: italic;
 }
