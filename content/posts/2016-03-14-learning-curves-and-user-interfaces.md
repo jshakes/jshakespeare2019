@@ -50,7 +50,7 @@ An obvious example of this in the digital world is the difference between mobile
 
 As with all humanistic design, it is important to put the user and their needs first and not simply to crowbar the same solutions into everything we design. Abby Covert writes in How to Make Sense of Any Mess:
 
-“What works for kids might annoy older people. What worked five years ago may not work today. We have to think about the effects of adopting an existing structure or language before doing so.”
+> “What works for kids might annoy older people. What worked five years ago may not work today. We have to think about the effects of adopting an existing structure or language before doing so.”
 
 The cost of misjudging learning curves is frustration for the user. If an interface is intuitive but does not reward experience, the user will move on to another product that lets them be more proficient. If an interface is too hard to learn, users will simply ignore it in the first place.
 

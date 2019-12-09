@@ -25,7 +25,9 @@ This becomes especially useful in avoiding destructive habits and promoting posi
 
 ### A record of past selves
 
-One of the most delightfully simple reasons to keep a diary is that you have a unique set of experiences that no one else can write about. Each day you can record what kind of a person you are at this exact point in time, and to be able to revisit that person when you're older is a truly valuable asset. In an essay entitled “On Keeping a Notebook”, Joan Didion said "Remember what it was to be me: that is always the point… We forget all too soon the things we thought we could never forget. We forget the loves and the betrayals alike, forget what we whispered and what we screamed, forget who we were.”
+One of the most delightfully simple reasons to keep a diary is that you have a unique set of experiences that no one else can write about. Each day you can record what kind of a person you are at this exact point in time, and to be able to revisit that person when you're older is a truly valuable asset. In an essay entitled “On Keeping a Notebook”, Joan Didion said:
+
+> "Remember what it was to be me: that is always the point… We forget all too soon the things we thought we could never forget. We forget the loves and the betrayals alike, forget what we whispered and what we screamed, forget who we were.”
 
 Leaving your future perception of your current self to the haziness of memory is unreliable. The seemingly insignificant thoughts and events that fall through the cracks are often the ones that paint the most accurate picture of who we were, not the extreme highs and lows that stick in our mind precisely because they were out of the ordinary. 
 
