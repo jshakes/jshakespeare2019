@@ -3,7 +3,7 @@ date: 2015-10-04 22:46:00+05:00
 layout: post
 permalink: why-good-agencies-write-bad-code
 title: Why good agencies write bad code
-image: why-good-agencies-write-bad-code.jpg
+featured_image: why-good-agencies-write-bad-code.jpg
 ---
 
 Any seasoned programmer will have some experience of technical debt, the metaphor used to analogize how corner-cutting and skimping on process early in a project’s lifecycle results in a debt that must be paid off later. It is not necessarily a bad thing, but anyone who has inherited legacy code will know the frustrations of working with an indebted project. Sometimes a development team is able to effectively leverage technical debt to their advantage, sacrificing stability and process early on to achieve fast turn-arounds. Think of this a bit like a shopkeeper who must take out a business loan to buy inventory. They know that if they are able to sell that inventory at a profit they will have the capital to pay off that debt later on, along with the interest it accrues along the way.

@@ -1,3 +1,9 @@
+/*
+Peach to teal:
+--accent-1: #c76b61;
+--accent-2: #50a0a5;
+*/
+
 :root {
   --accent-1: #c61905;
   --accent-2: #0646df;
@@ -7,6 +13,8 @@
   @media (prefers-color-scheme: dark) {
     --background: #121213;
     --foreground: white;
+    --accent-1: #c76b61;
+    --accent-2: #50a0a5;
   }
 }
 

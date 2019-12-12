@@ -5,7 +5,7 @@ layout: post
 permalink: stop-externalising-your-life
 title: Stop externalising your life
 wordpress_id: 1038
-image: stop-externalising-your-life.jpg
+featured_image: stop-externalising-your-life.jpg
 ---
 
 Recently the Barbican museum in London held an exhibition called the Rain Room. It was an installation in which water poured from the ceiling, but sensors detected where people were standing and would turn off the taps above their heads so they didn't get wet. It was a clever and engaging piece of interactive art and was immensely popular. During the time this installation was open, my Twitter stream was filled with photos of people standing in the Rain Room, accompanied by the caption 'Rain Room @ The Barbican!' and a location attachment to prove that they were indeed in the Rain Room.

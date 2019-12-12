@@ -6,7 +6,7 @@ layout: post
 permalink: no-comment
 title: No comment.
 wordpress_id: 1052
-image: no-comment.jpg
+featured_image: no-comment.jpg
 ---
 
 "A Blog Without Comments Is Not a Blog". So reads the title of an [article](http://www.codinghorror.com/blog/2006/04/a-blog-without-comments-is-not-a-blog.html) by Jeff Atwood published in 2006, in which he argues that disabling comments on a blog is tantamount to preaching a sermon; it is a one way delivery of content that doesn't facilitate further discussion or user engagement.
