@@ -1,9 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+    <meta property="og:site_name" content="James Shakespeare">
+    <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+    <meta property="og:url" content="{{ .Permalink }}">
     <title>{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}"/>
+    {{ if .Params.featured_image }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}">
+    <meta name="twitter:card" content="summary_large_image">
+    {{ if .Params.featured_image_alt }}<meta name="twitter:image:alt" content="{{ .Params.featured_image_alt }}">{{end}}
+
+    {{ end }}
+    {{ if eq .Section "posts" }}
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="James Shakespeare" />
+    {{ if .Date }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" />{{ end }}
+    {{ end }}
+    <meta name="author" content="James Shakespeare">
+    <meta name="twitter:site" content="jeshake">
     {{ with resources.Get "sass/main.scss" | toCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>
     {{ end }}

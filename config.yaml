@@ -1,8 +1,8 @@
 baseURL: https://jshakespeare.com/
-languageCode: en-us
+languageCode: en_US
 title: James Shakespeare
 params:
-  Subtitle: James Shakespeare is a web developer from London. He works at Quartz in New York.
+  description: James Shakespeare is a web developer from London. He works at Quartz in New York.
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
