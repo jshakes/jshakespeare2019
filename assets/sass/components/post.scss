@@ -56,13 +56,11 @@
 
 .post__footer {
 	margin-top: 3em;
+}
 
-	&::before {
-	  content: '▰ ▰';
-		text-align: center;
-		display: block;
-		margin-bottom: 3em;
-	}
+.post__footer-hr::after {
+	content: ' ▰';
+	color: var(--accent-2);
 }
 
 .post__postscript {

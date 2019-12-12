@@ -10,6 +10,7 @@
 	&::after {
 		content: '▰';
 		margin-left: 1em;
+		color: var(--accent-2);
 	}
 
 	&:last-child::after {
