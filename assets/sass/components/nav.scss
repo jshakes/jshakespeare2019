@@ -1,19 +1,27 @@
 .nav__items {
 	@include reset-ul;
 
-	display: flex;
+	@include larger-than(mobile) {
+		display: flex;
+	}
 }
 
 .nav__item {
 	margin-right: 1em;
+	white-space: nowrap;
+	line-height: 2;
 
-	&::after {
+	@include larger-than(mobile) {
+		line-height: 1;
+	}
+
+	&::before {
 		content: '▰';
-		margin-left: 1em;
+		margin-right: 1em;
 		color: var(--accent-2);
 	}
 
-	&:last-child::after {
+	&:first-child::before {
 		content: none;
 	}
 }
