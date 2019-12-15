@@ -1,7 +1,9 @@
 {{ define "main" }}
-  <main class="page">
+  <div class="page">
     {{ partial "nav.html" }}
-		<h1 class="page__heading">{{.Title}}</h1>
-	  {{.Content}}
-  </main>
+    <main id="main">
+			<h1 class="page__heading">{{.Title}}</h1>
+	  	{{.Content}}
+	  </main>
+  </div>
 {{ end }}

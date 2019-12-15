@@ -1,56 +1,54 @@
 {{ define "main" }}
-  <main>
-    <header class="homepage-header">
-      <div class="homepage-header__contents">
-        <a class="homepage-header__permalink" href="{{.Site.BaseURL}}">
-          <h1 class="homepage-header__title">jshakespeare.com</h1>
-        </a>
-        <p class="homepage-header__subtitle">James Shakespeare builds websites, like this one. He is from London and works at <a href="https://qz.com/user/777129/">Quartz</a> in New York.</p>
-        <nav class="nav">
-          <ul class="nav__items nav__items--home">
-            <li class="nav__item">
-              <a href="/about/">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="/projects/">Projects</a>
-            </li>
-            <li class="nav__item">
-              <a href="/posts/">Posts</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="homepage-header__decoration" aria-hidden="true"></div>
-      </div>
-    </header>
-    <div class="page homepage-content">
-      <section class="homepage-content__section">
-        <h2 class="homepage-content__section-heading">About</h2>
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
-        <a class="cta" href="/about/">More about me<span class="cta__decoration" aria-hidden="true"></span></a>
-      </section>
-      <section class="homepage-content__section">
-        <h2 class="homepage-content__section-heading">Projects</h2>
-        <p>I have made lots of things some things I have made include...</p>
-        <a class="cta" href="/projects/">More projects<span class="cta__decoration" aria-hidden="true"></span></a>
-      </section>
-      <section class="homepage-content__section">
-        <h2 class="homepage-content__section-heading">Recent posts</h2>
-        <ul class="post-list">
-        <!-- Ranges through content/posts/*.md -->
-        {{ range first 5 .Site.RegularPages }}
-          <li class="post-list__item">
-            <a href="{{.Permalink}}" class="post-list__link">
-              <h3 class="post-list__heading">{{.Title}}</h3>
-            </a>
-            <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "2 January 2006"}}</time>
+  <header class="homepage-header">
+    <div class="homepage-header__contents">
+      <a class="homepage-header__permalink" href="{{.Site.BaseURL}}">
+        <h1 class="homepage-header__title">jshakespeare.com</h1>
+      </a>
+      <p class="homepage-header__subtitle">James Shakespeare builds websites, like this one. He is from London and works at <a href="https://qz.com/user/777129/">Quartz</a> in New York.</p>
+      <nav class="nav">
+        <ul class="nav__items nav__items--home">
+          <li class="nav__item">
+            <a href="/about/">About</a>
           </li>
-        {{ end }}
+          <li class="nav__item">
+            <a href="/projects/">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="/posts/">Posts</a>
+          </li>
         </ul>
-        <p>
-          <a class="cta" href="/posts/">All posts<span class="cta__decoration" aria-hidden="true"></span></a>
-        </p>
-      </section>
+      </nav>
+      <div class="homepage-header__decoration" aria-hidden="true"></div>
     </div>
-  </main>
+  </header>
+  <div class="page homepage-content">
+    <section class="homepage-content__section">
+      <h2 class="homepage-content__section-heading">About</h2>
+      <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+      {{.Content}}
+      <a class="cta" href="/about/">More about me<span class="cta__decoration" aria-hidden="true"></span></a>
+    </section>
+    <section class="homepage-content__section">
+      <h2 class="homepage-content__section-heading">Projects</h2>
+      <p>I have made lots of things some things I have made include...</p>
+      <a class="cta" href="/projects/">More projects<span class="cta__decoration" aria-hidden="true"></span></a>
+    </section>
+    <section class="homepage-content__section">
+      <h2 class="homepage-content__section-heading">Recent posts</h2>
+      <ul class="post-list">
+      <!-- Ranges through content/posts/*.md -->
+      {{ range first 5 .Site.RegularPages }}
+        <li class="post-list__item">
+          <a href="{{.Permalink}}" class="post-list__link">
+            <h3 class="post-list__heading">{{.Title}}</h3>
+          </a>
+          <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "2 January 2006"}}</time>
+        </li>
+      {{ end }}
+      </ul>
+      <p>
+        <a class="cta" href="/posts/">All posts<span class="cta__decoration" aria-hidden="true"></span></a>
+      </p>
+    </section>
+  </div>
 {{ end }}

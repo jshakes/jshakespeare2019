@@ -14,20 +14,19 @@
     <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}">
     <meta name="twitter:card" content="summary_large_image">
     {{ if .Params.featured_image_alt }}<meta name="twitter:image:alt" content="{{ .Params.featured_image_alt }}">{{end}}
-
     {{ end }}
     {{ if eq .Section "posts" }}
     <meta property="og:type" content="article" />
     <meta property="article:author" content="James Shakespeare" />
     {{ if .Date }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" />{{ end }}
     {{ end }}
-    <meta name="author" content="James Shakespeare">
     <meta name="twitter:site" content="jeshake">
     {{ with resources.Get "sass/main.scss" | toCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>
     {{ end }}
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to content</a>
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->

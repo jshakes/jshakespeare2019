@@ -12,3 +12,34 @@
 		padding: 0;
 	}
 }
+
+/*
+From https://www.w3.org/WAI/tutorials/forms/labels/#note-on-hiding-elements
+
+Hide elements visually but not from screen readers/assistive technology.
+Elements with this class are technically visible but practically hidden.
+Note that interactive elements are still active when using this code, so it
+is not suitable to hide other parts of forms but the labels.
+
+*/
+@mixin visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+@mixin reset-visually-hidden {
+	border: initial;
+	clip: auto;
+	height: auto;
+	width: auto;
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	position: static;
+}
