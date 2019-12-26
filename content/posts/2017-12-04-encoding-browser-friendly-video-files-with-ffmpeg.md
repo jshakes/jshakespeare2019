@@ -7,7 +7,7 @@ title: Encoding browser-friendly video files with ffmpeg
 
 There are only two [file types](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats) required to natively play video in any modern browser with HTML5: WebM and MP4. Currently [all major browsers support MP4](https://caniuse.com/#search=mp4), but WebM allows for a much better quality-to-filesize ratio. Using [ffmpeg](https://www.ffmpeg.org/) you can transcode any multimedia file into WebM and MP4 from your command line.
 
-{{< figure src="/post_images/webm-comparison.jpg" caption="The same file transcoded to H.264-MP4 and VP9-WebM with the same bitrate. The WebM filesize is 40% that of the MP4." >}}
+{{< figure alt="Screenshot from OSX showing the relative file sizes of two files encoded with ffmpeg" src="/post_images/webm-comparison.jpg" caption="The same file transcoded to H.264-MP4 and VP9-WebM with the same bitrate. The WebM filesize is 40% that of the MP4." >}}
 
 Ffmpeg is a hugely powerful tool. It supports just about every codec going and has a relatively simple interface. With that said, it does require you have at least a basic knowledge of multimedia encoding, so it can be a little daunting if you’re just looking to create the necessary files to use the  [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) tag on your site. Here’s a step by step guide to getting the files you need for any browser to natively play your video.
 

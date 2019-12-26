@@ -33,7 +33,7 @@ Eich is spearheading the creation of Brave, a web browser with a focus on privac
 
 But instead of just being another piece of ad-blocking tech, Brave aims to reinvent the advertising model altogether to make a fairer deal for publishers and advertisers as well as users. The browser ships with Brave Payments, a wallet that lets users pay publishers as they browse, based on a voluntary monthly budget. 
 
-{{< figure src="/post_images/brave-payments-wallet.png" caption="The Brave Payments wallet. Sites eligible to receive donations are listed in order of how much time the user has spent visiting them. A green checkmark indicates that site has signed up to receive payment" >}}
+{{< figure src="/post_images/brave-payments-wallet.png" alt="Brave Payments wallet screenshot showing BAT balance and attention breakdown by percentage" caption="The Brave Payments wallet. Sites eligible to receive donations are listed in order of how much time the user has spent visiting them. A green checkmark indicates that site has signed up to receive payment" >}}
 
 Brave users fund their wallet with a cryptocurrency called Basic Attention Token (BAT). The premise of BAT is that user attention has an intrinsic value that drives the digital economy. BAT aims to be a monetary representation of this attention, whether it is to editorial content, video, advertising, games, and so on. At the time of writing, 1 BAT is worth roughly 0.50 USD.
 
