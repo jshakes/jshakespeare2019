@@ -6,3 +6,20 @@
 	margin-bottom: 4rem;
 	font-size: 0.8em;
 }
+
+.footer__links {
+	@include reset-ul;
+
+	display: inline-block;
+}
+
+.footer__link {
+	display: inline-block;
+	margin-left: 1em;
+
+	&::before {
+		content: $decoration-character;
+		margin-right: 1em;
+		color: var(--accent-1);
+	}
+}

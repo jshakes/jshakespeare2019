@@ -24,6 +24,7 @@
     {{ with resources.Get "sass/main.scss" | toCSS | minify }}
     <style>{{ .Content | safeCSS }}</style>
     {{ end }}
+    <link rel="alternate" type="application/rss+xml" title="jshakespeare.com blog RSS" href="/posts/index.xml" />
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
@@ -33,7 +34,13 @@
     {{ end }}
     {{ block "footer" . }}
       <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-      <footer class="footer">© James Shakespeare {{ dateFormat "2006" now }}</footer>
+      <footer class="footer">
+        <span>© James Shakespeare {{ dateFormat "2006" now }}</span>
+        <ul class="footer__links">
+            <li class="footer__link"><a href="/posts/index.xml">RSS</a></li>
+            <li class="footer__link"><a href="https://twitter.com/jeshake">Twitter</a></li>
+        </ul>
+      </footer>
     {{ end }}
   </body>
 </html>
