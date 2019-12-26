@@ -90,6 +90,6 @@ hr {
   color: var(--accent-1);
 
   &::before {
-    content: '▰';
+    content: $decoration-character;
   }
 }

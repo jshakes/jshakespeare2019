@@ -26,7 +26,7 @@ An interface with an exponential learning curve (one that curves upward over tim
 
 {{< figure src="/post_images/espresso-machine.jpg" alt="A cafe-grade espresso machine" caption="An espresso machine interface offers more power, but requires a greater initial investment of time (photo by Felipe Neves, https://flic.kr/p/aWEoia)" >}}
 
-To an inexperienced user there’s more to process and this means an increase in the time and brainpower required to make an acceptable of coffee. Grind the beans into the portafilter, tamp the coffee, attach and run water through the portafilter, add hot water as desired. The learning curve here would look more like this:
+To an inexperienced user there’s more to process and this means an increase in the time and brainpower required to make an acceptable cup of coffee. Grind the beans into the portafilter, tamp the coffee, attach and run water through the portafilter, add hot water or milk as desired. The learning curve here would look more like this:
 
 {{< figure src="/post_images/exponential.png" alt="A line graph with 'experience' on the x axis and 'proficiency' on the y axis. The line shows an exponential increase in proficiency with experience" >}}
 

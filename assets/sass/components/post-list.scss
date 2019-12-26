@@ -17,7 +17,7 @@
 }
 
 .post-list__item {
-	@include custom-list-bullet('▰');
+	@include custom-list-bullet($decoration-character);
 
 	margin: 0 0 2em;
 }

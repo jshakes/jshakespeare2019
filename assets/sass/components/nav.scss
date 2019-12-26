@@ -19,7 +19,7 @@
 	}
 
 	&::before {
-		content: '▰';
+		content: $decoration-character;
 		margin-right: 1em;
 		color: var(--accent-2);
 	}

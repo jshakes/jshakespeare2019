@@ -35,7 +35,7 @@
 	}
 
 	ul li {
-		@include custom-list-bullet('▰');
+		@include custom-list-bullet($decoration-character);
 	}
 
 	pre {
@@ -59,8 +59,9 @@
 }
 
 .post__footer-hr::after {
-	content: ' ▰';
+	content: $decoration-character;
 	color: var(--accent-2);
+	margin-left: 0.25em;
 }
 
 .post__postscript {

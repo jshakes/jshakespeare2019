@@ -4,7 +4,7 @@ layout: post
 permalink: code-isnt-poetry
 title: Code isn't poetry
 description: Hemingway's prose was masterful in its simplicity and terseness. Can we write code the same way?
-featured_image: post_images/hemingway.jpg
+featured_image: /post_images/hemingway.jpg
 featured_image_caption: Illustration by Eleanor Shakespeare
 ---
 

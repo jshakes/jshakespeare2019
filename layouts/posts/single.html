@@ -8,7 +8,7 @@
   		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "2 January 2006"}}</time>
           {{ if .Params.featured_image }}
           <figure>
-            <img class="post__featured-image" alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="/{{.Params.featured_image}}">
+            <img class="post__featured-image" alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="{{.Params.featured_image}}">
             {{ if .Params.featured_image_caption }}
             <figcaption class="post__featured-image-caption">{{.Params.featured_image_caption}}</figcaption>
             {{ end }}
