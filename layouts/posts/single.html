@@ -4,8 +4,10 @@
     <main id="main">
     	<article class="post">
     		<div class="post__header">
-  		  	<h1 class="post__headline">{{.Title}}</h1>
-  		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "2 January 2006"}}</time>
+          <div class="post__meta">
+    		  	<h1 class="post__headline">{{.Title}}</h1>
+    		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "2 January 2006"}}</time>
+          </div>
           {{ if .Params.featured_image }}
           <figure>
             <img class="post__featured-image" alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="{{.Params.featured_image}}">

@@ -1,5 +1,7 @@
 .post__header {
 	margin: 6em 0;
+	position: relative;
+	display: flex;
 }
 
 .post__headline {
@@ -66,4 +68,20 @@
 
 .post__postscript {
 	font-style: italic;
+}
+
+.post__meta {
+	order: 1;
+}
+
+.post__featured-image {
+	width: 8em;
+	margin-right: 2em;
+
+	@include larger-than(desktop) {
+		width: 10em;
+		position: absolute;
+		left: -12em;
+		top: 0;
+	}
 }
