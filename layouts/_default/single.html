@@ -3,7 +3,9 @@
     {{ partial "nav.html" }}
     <main id="main">
 			<h1 class="page__heading">{{.Title}}</h1>
-	  	{{.Content}}
+			<div class="page__content">
+	  		{{.Content}}
+	  	</div>
 	  </main>
   </div>
 {{ end }}

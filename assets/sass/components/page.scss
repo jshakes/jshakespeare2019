@@ -7,3 +7,25 @@
 
 	margin: 0 0 1em;
 }
+
+.page__content {
+	h2 {
+		margin: 0 0 1.5em;
+	}
+
+	ul {
+		margin: 0 0 4em;
+		line-height: 1.666666;
+		padding: 0 0 0 $page-margin-mobile;
+
+		@include larger-than(mobile) {
+			padding: 0;
+		}
+
+		li {
+			@include custom-list-bullet($decoration-character);
+
+			margin: 0 0 2em;
+		}
+	}
+}
