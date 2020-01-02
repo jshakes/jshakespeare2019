@@ -7,6 +7,7 @@ permalink: you-arent-learning-if-you-arent-doing
 title: You aren't learning if you aren't doing
 wordpress_id: 1074
 featured_image: /post_images/you-arent-learning-if-you-arent-doing.jpg
+featured_image_caption: Illustration by Eleanor Shakespeare
 ---
 
 One of the most exciting things about being involved with the web is that new technologies are emerging all the time. The thing that sucks about that is new things are emerging _all the damn time_. If a developer is to remain competitive, pioneering and most importantly, in a job, then learning must be a core part of her career.

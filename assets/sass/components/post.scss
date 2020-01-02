@@ -1,7 +1,5 @@
 .post__header {
-	margin: 6em 0;
-	position: relative;
-	display: flex;
+	margin: 6em 0 4em;
 }
 
 .post__headline {
@@ -75,13 +73,5 @@
 }
 
 .post__featured-image {
-	width: 8em;
-	margin-right: 2em;
-
-	@include larger-than(desktop) {
-		width: 10em;
-		position: absolute;
-		left: -12em;
-		top: 0;
-	}
+	margin: 2em 0 0;
 }

@@ -1,10 +1,11 @@
 ---
 title: "Projects"
+description: An incomplete collection of things I’ve made or help to make over the years.
 ---
 
 An incomplete collection of things I’ve made or help to make over the years. 
 
-Disclaimer: [things move fast on the web](/your-creations-will-not-outlast-you/) - lots of things I’ve made no longer exist or have since been updated. As such, some of the links below point to press articles.
+Disclaimer: [things move fast on the web](/your-creations-will-not-outlast-you/) - lots of things I’ve made no longer exist or have since been updated. As such, some of the links below point to press articles or GitHub repositories.
 
 ## At Quartz
 * [Quartz 2019 redesign](https://qz.com/1724663/putting-members-at-the-heart-of-quartz/) - Putting the member experience at the heart of qz.com
@@ -16,9 +17,8 @@ Disclaimer: [things move fast on the web](/your-creations-will-not-outlast-you/)
 ## Personal projects
 * [Moon tonight](https://moontonight.co/) - Location-based rendering of tonight’s moon phase using CSS
 * [Giglist](https://github.com/jshakes/giglist) - Generate Spotify playlists of songs by artists playing live in your city this month
-* [CitiBike Texts](https://github.com/jshakes/citibike-texts) - Receive a daily text with the number of available CitiBikes in your nearest dock
+* [CitiBike Texts](https://github.com/jshakes/citibike-texts) - Receive a daily text with the number of available CitiBikes in your nearest docks
 * [Milkshake](https://thenextweb.com/apps/2014/10/21/milkshake-simple-way-share-three-track-music-playlists-chat-friends-real-time/) - Create and listen to playlists in real-time with a friend over websockets. Built with [Nathan Igdaloff](http://igdaloff.com/) and [Spenser Garden](http://spenser.garden/)
-
 
 ## Other client work
 * [Harp and Harp](http://harpandharp.co.uk/) - Portfolio for London-based architects Steve and Kayleigh Harp
