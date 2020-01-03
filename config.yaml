@@ -1,5 +1,5 @@
 baseURL: https://jshakespeare.com/
-languageCode: en_US
+languageCode: en
 title: James Shakespeare
 params:
   description: James Shakespeare is a web developer from London. He works at Quartz in New York.

@@ -24,7 +24,7 @@ Disclaimer: things move fast on the web - lots of things I’ve made [no longer 
 * [Harp and Harp](http://harpandharp.co.uk/) - Portfolio for London-based architects Steve and Kayleigh Harp
 * [Robert Fabrikant](https://robertfabrikant.com/) - Promotional site for fourth-generation New York jeweler Robert Fabrikant Inc.
 * [The Infatuation’s Further Afield Guide](https://www.theinfatuation.com/world-travel-guides)
-* [The Kabbalah Centre](https://kabbalah.com/en) - Built at Big Human
+* [The Kabbalah Centre](https://kabbalah.com/en) - Built at [Big Human](https://bighuman.com/)
 * [RoomZoom](roomzoom.com) - Algorithmic roommate-finding website. Built at [Big Human](https://bighuman.com/)
 * [Caravan](https://caravanwellness.com/) - Wellness services on-demand. Built at [Big Human](https://bighuman.com/)
 * [Melanie Carvalho](http://melaniecarvalho.co.uk/) - Portfolio site for London-based artist Melanie Carvalho

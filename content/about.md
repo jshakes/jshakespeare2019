@@ -16,6 +16,6 @@ If you’d like to contact me, my email address is [j@jshakespeare.com](mailto:j
 
 ## Colophon
 
-This website was built using [Hugo](https://gohugo.io/), a static site generator built with Go. The theme code is open source and can be found on [GitHub](https://github.com/jshakes/jshakespeare2019).
+This website was built using [Hugo](https://gohugo.io/), a static site generator built with Go. The theme code is open source and can be found on [GitHub](https://github.com/jshakes/jshakespeare2019). It is hosted on [Netlify](https://www.netlify.com/).
 
 The body font is [PT Sans](https://company.paratype.com/pt-sans-pt-serif) and the display font is [Interstate](http://tfj.fontbureau.com/#Interstate).
