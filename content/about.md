@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I’ve been making websites and other digital products for about ten years. I’m primarily a front-end web developer, which means I spend most of my time writing code with languages like JavaScript. I particularly enjoying working at the intersection of design and code; in my experience they are usually two sides of the same coin.
+I’ve been making websites and other digital products for about ten years. I’m primarily a front-end web developer, which means I spend most of my time writing code with languages like JavaScript. I particularly enjoy working at the intersection of design and code; in my experience they are usually two sides of the same coin.
 
 I’m a strong proponent of [human-centered design](https://www.youtube.com/watch?v=rmM0kRf8Dbk&vl=en). When we set out to make a product, we are embracing an opportunity to make the user’s life better. That is an exciting job to have!
 

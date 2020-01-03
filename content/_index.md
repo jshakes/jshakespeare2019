@@ -1,1 +1,1 @@
-I'm a product-focused, design-fluent web developer with six years of​ agency experience. I specialize in solving problems with technology. I offer a unique blend of coding, visual and UX design, systems thinking and information architecture.
+I’m a web developer with over ten years of experience at agencies and in-house. I mostly work with front-end technologies, which means I spend a lot of time writing code with languages like JavaScript. I currently work on the product engineering team at Quartz, where I write code and manage other developers.

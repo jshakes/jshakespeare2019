@@ -5,11 +5,11 @@ description: An incomplete collection of things I’ve made or help to make over
 
 An incomplete collection of things I’ve made or help to make over the years. 
 
-Disclaimer: [things move fast on the web](/your-creations-will-not-outlast-you/) - lots of things I’ve made no longer exist or have since been updated. As such, some of the links below point to press articles or GitHub repositories.
+Disclaimer: things move fast on the web - lots of things I’ve made [no longer exist](/your-creations-will-not-outlast-you/) or have since been updated. As such, some of the links below point to press articles or GitHub repositories.
 
 ## At Quartz
-* [Quartz 2019 redesign](https://qz.com/1724663/putting-members-at-the-heart-of-quartz/) - Putting the member experience at the heart of qz.com
-* [Quartz 2018 redesign](https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/) - React-based redesign of qz.com
+* [Quartz 2019 homepage redesign](https://qz.com/1724663/putting-members-at-the-heart-of-quartz/) - Putting the member experience at the heart of qz.com
+* [Quartz 2018 site rebuild](https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/) - React-based redesign of qz.com
 * [The World in 50 Years](https://qz.com/is/the-world-in-50-years/) - 50 bold thinkers predict how the world will look 50 years from now
 * [What Happens Next](https://qz.com/is/what-happens-next-2/) - Essays and videos that predict where we’re going—and how we’ll get there
 * [How We’ll Win](https://qz.com/work/is/how-well-win/) - The world’s most qualified women. The fight for gender equality.
@@ -17,7 +17,7 @@ Disclaimer: [things move fast on the web](/your-creations-will-not-outlast-you/)
 ## Personal projects
 * [Moon tonight](https://moontonight.co/) - Location-based rendering of tonight’s moon phase using CSS
 * [Giglist](https://github.com/jshakes/giglist) - Generate Spotify playlists of songs by artists playing live in your city this month
-* [CitiBike Texts](https://github.com/jshakes/citibike-texts) - Receive a daily text with the number of available CitiBikes in your nearest docks
+* [Citi Bike Texts](https://github.com/jshakes/citibike-texts) - Receive a daily text with the number of available Citi Bikes in your nearest docks
 * [Milkshake](https://thenextweb.com/apps/2014/10/21/milkshake-simple-way-share-three-track-music-playlists-chat-friends-real-time/) - Create and listen to playlists in real-time with a friend over websockets. Built with [Nathan Igdaloff](http://igdaloff.com/) and [Spenser Garden](http://spenser.garden/)
 
 ## Other client work
