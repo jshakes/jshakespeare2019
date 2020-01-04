@@ -12,7 +12,7 @@
           <figure class="post__featured-image">
             <img alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="{{.Params.featured_image}}">
             {{ if .Params.featured_image_caption }}
-            <figcaption class="post__featured-image-caption">{{.Params.featured_image_caption}}</figcaption>
+            <figcaption class="post__featured-image-caption">{{.Params.featured_image_caption | markdownify}}</figcaption>
             {{ end }}
           </figure>
           {{ end }}
