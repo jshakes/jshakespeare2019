@@ -21,7 +21,8 @@
 
 @mixin fixed-gradient-border__decoration($border-width: 0.5em) {
 	position: absolute;
-	clip: rect(0, auto, auto, 0);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 	left: 0;
 	right: 0;
 	top: 0;
