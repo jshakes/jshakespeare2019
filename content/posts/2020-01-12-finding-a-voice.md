@@ -45,5 +45,6 @@ _Some authors whose non-fiction work I enjoy:_
 * [Paul Graham](http://www.paulgraham.com/work.html)
 * [Robert Heaton](https://robertheaton.com/2019/06/17/childbirth-a-fathers-eye-view/)
 * [Laura Hillenbrand](https://www.newyorker.com/magazine/2003/07/07/a-sudden-illness)
+* [Daniel Lavery](https://www.shatnerchatner.com/p/american-on-american-action-abroad-sorry-for-travel-writing-at-you)
 * [David Sedaris](https://www.newyorker.com/magazine/2019/12/02/hurricane-season)
 * [Tim Urban, aka Wait But Why](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
