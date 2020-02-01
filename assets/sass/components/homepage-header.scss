@@ -13,17 +13,14 @@ $border-width: 0.5em;
 	}
 
 	@include larger-than(desktop) {
-		margin: 4em 4em 4em + $border-width;
+		margin: 4em auto 4em + $border-width;
 		padding: 4em 6em;
+		max-width: 1200px;
 	}
 }
 
 .homepage-header__contents {
 	max-width: 1024px;
-
-	@include larger-than(tablet) {
-		padding-right: 15%;
-	}
 }
 
 .homepage-header__decoration {
