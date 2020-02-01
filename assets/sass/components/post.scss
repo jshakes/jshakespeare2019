@@ -58,6 +58,10 @@
 	margin-top: 3em;
 }
 
+.post__footer-hr::before {
+	color: var(--accent-1);
+}
+
 .post__footer-hr::after {
 	content: $decoration-character;
 	color: var(--accent-2);

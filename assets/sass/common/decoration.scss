@@ -52,7 +52,7 @@
 		position: absolute;
 		left: -$page-margin-mobile;
 		line-height: inherit;
-		color: var(--accent-1);
+		color: var(--accent-2);
 
 		@include larger-than(mobile) {
 			left: -$page-margin-tablet + 0.666666em;
