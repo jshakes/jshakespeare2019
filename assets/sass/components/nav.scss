@@ -26,6 +26,10 @@
 	}
 
 	&:first-child::before {
-		content: none;
+		color: var(--accent-1);
+
+		.nav__items--home & {
+			color: var(--accent-2);
+			}
 	}
 }
