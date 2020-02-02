@@ -50,8 +50,4 @@ $border-width: 0.5em;
 	@include larger-than(desktop) {
 		font-size: 2.5em;
 	}
-
-	a {
-		text-decoration-width: 0.1em;
-	}
 }
