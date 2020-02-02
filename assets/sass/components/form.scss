@@ -18,4 +18,6 @@
 
 .form__submit {
 	@extend .cta--small;
+
+	color: inherit;
 }
