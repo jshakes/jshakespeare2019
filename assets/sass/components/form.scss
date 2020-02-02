@@ -1,0 +1,21 @@
+.form {
+	margin: 0 0 4em;
+}
+
+.form__row {
+	display: flex;
+}
+
+.form__input {
+	@include reset-text-input;
+
+	padding: 0.5em 1em;
+	line-height: 1;
+	border: 0.25em solid var(--foreground, black);
+	margin-right: 2em;
+	flex-grow: 1;
+}
+
+.form__submit {
+	@extend .cta--small;
+}

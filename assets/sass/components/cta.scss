@@ -10,6 +10,7 @@ $cta-border-width: 0.25em;
 	text-decoration: none;
 	position: relative;
 	font-style: normal;
+	cursor: pointer;
 
 	&:hover {
 		text-decoration: none;
@@ -31,6 +32,16 @@ $cta-border-width: 0.25em;
 			bottom: -$cta-border-width;
 			right: -$cta-border-width;
 		}
+	}
+}
+
+.cta--small {
+	@extend .cta;
+
+	padding: 0.5em 2em;
+
+	&::after {
+		content: none;
 	}
 }
 

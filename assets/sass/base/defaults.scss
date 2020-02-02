@@ -44,11 +44,12 @@ img {
   max-width: 100%;
 }
 
-a {
+a, label {
   color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
   
   &:hover {
-    text-decoration: underline;
     text-decoration-color: var(--accent-2);
   }
 }
