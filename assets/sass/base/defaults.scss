@@ -9,12 +9,14 @@ Peach to teal:
   --accent-2: #0646df;
   --background: white;
   --foreground: #121213;
+  --shadow: rgba(0, 0, 0, 0.25);
 
   @media (prefers-color-scheme: dark) {
     --background: #121213;
     --foreground: white;
     --accent-1: #c76b61;
     --accent-2: #50a0a5;
+    --shadow: black;
   }
 }
 

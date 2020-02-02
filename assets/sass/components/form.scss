@@ -11,13 +11,18 @@
 
 	padding: 0.5em 1em;
 	line-height: 1;
-	border: 0.25em solid var(--foreground, black);
+	border: 0.166666em solid var(--foreground, black);
 	margin-right: 2em;
 	flex-grow: 1;
+	box-shadow: 0.25em 0.25em 0 0 var(--shadow, black);
 }
 
 .form__submit {
-	@extend .cta--small;
+	@extend .cta;
 
 	color: inherit;
+
+	&::after {
+		content: none;
+	}
 }

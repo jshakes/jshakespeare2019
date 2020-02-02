@@ -1,4 +1,4 @@
-$cta-border-width: 0.25em;
+$cta-border-width: 0.166666em;
 
 .cta {
 	@include fixed-gradient-border__container($cta-border-width);
@@ -6,7 +6,7 @@ $cta-border-width: 0.25em;
 	display: inline-flex;
 	font-family: $display-font;
 	align-items: center;
-	padding: 1em 2em;
+	padding: 0.75em 2em;
 	text-decoration: none;
 	position: relative;
 	font-style: normal;
@@ -32,16 +32,6 @@ $cta-border-width: 0.25em;
 			bottom: -$cta-border-width;
 			right: -$cta-border-width;
 		}
-	}
-}
-
-.cta--small {
-	@extend .cta;
-
-	padding: 0.5em 2em;
-
-	&::after {
-		content: none;
 	}
 }
 
