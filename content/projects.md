@@ -3,7 +3,7 @@ title: "Projects"
 description: An incomplete collection of things I’ve made or help to make over the years.
 ---
 
-An incomplete collection of things I’ve made or help to make over the years. 
+An incomplete collection of things I’ve made or helped make over the years. 
 
 Disclaimer: things move fast on the web - lots of things I’ve made [no longer exist](/your-creations-will-not-outlast-you/) or have since been updated. As such, some of the links below point to press articles or GitHub repositories.
 
