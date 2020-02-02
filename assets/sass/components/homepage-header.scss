@@ -4,11 +4,11 @@ $border-width: 0.5em;
 	@include fixed-gradient-border__container($border-width);
 
 	margin: 1em 1em 4em + $border-width;
-	padding: 4em 2em;
+	padding: 4em $page-margin-mobile;
 	font-family: $display-font;
 
 	@include larger-than(mobile) {
-		margin: 2em 2em 4em + $border-width;
+		margin: 2em $page-margin-tablet 4em + $border-width;
 		padding: 4em;
 	}
 
@@ -39,7 +39,7 @@ $border-width: 0.5em;
 }
 
 .homepage-header__subtitle {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.333333;
 	margin: 4rem 0;
 

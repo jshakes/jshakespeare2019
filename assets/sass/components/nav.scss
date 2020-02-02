@@ -7,6 +7,7 @@
 
 	&.nav__items--home {
 		display: flex;
+		flex-wrap: wrap;
 	}
 }
 
@@ -21,8 +22,12 @@
 
 	&::before {
 		content: $decoration-character;
-		margin-right: 1em;
+		margin-right: 0.25em;
 		color: var(--accent-2);
+
+		@include larger-than(mobile) {
+			margin-right: 1em;
+		}
 	}
 
 	&:first-child::before {
@@ -31,5 +36,9 @@
 		.nav__items--home & {
 			color: var(--accent-2);
 		}
+	}
+
+	&:last-child {
+		margin-right: 0;
 	}
 }

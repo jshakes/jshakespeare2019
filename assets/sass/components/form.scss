@@ -4,23 +4,39 @@
 
 .form__row {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	margin-bottom: -1em;
+	margin-right: -$page-margin-mobile;
+
+	@include larger-than(mobile) {
+		margin-right: -$page-margin-tablet;
+	}
 }
 
 .form__input {
 	@include reset-text-input;
 
-	padding: 0.5em 1em;
+	padding: 0.75em 1em;
+	min-width: 16em;
 	line-height: 1;
 	border: 0.166666em solid var(--foreground, black);
-	margin-right: 2em;
+	margin-bottom: 1em;
 	flex-grow: 1;
 	box-shadow: 0.25em 0.25em 0 0 var(--shadow, black);
+	margin-right: $page-margin-mobile;
+
+	@include larger-than(mobile) {
+		margin-right: $page-margin-tablet;
+	}
 }
 
 .form__submit {
 	@extend .cta;
 
 	color: inherit;
+	margin-bottom: 1em;
+	margin-right: 2em;
 
 	&::after {
 		content: none;
