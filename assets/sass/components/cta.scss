@@ -13,9 +13,7 @@ $cta-border-width: 0.166666em;
 	cursor: pointer;
 
 	&:hover {
-		text-decoration: none;
-		border-color: var(--accent-1);
-		color: inherit;
+		color: var(--accent-2);
 	}
 
 	&::after {
