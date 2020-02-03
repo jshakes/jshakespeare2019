@@ -5,21 +5,31 @@
 	margin-top: 6rem;
 	margin-bottom: 4rem;
 	font-size: 0.8em;
+
+	@include larger-than(mobile) {
+		display: flex;
+	}
 }
 
 .footer__links {
 	@include reset-ul;
-
-	display: inline-block;
 }
 
 .footer__link {
-	display: inline-block;
-	margin-left: 1em;
+	margin-top: 1em;
+
+	@include larger-than(mobile) {
+		margin-left: 1em;
+		margin-top: 0;
+		display: inline-block;
+	}
 
 	&::before {
 		content: $decoration-character;
-		margin-right: 1em;
 		color: var(--accent-2);
+		
+		@include larger-than(mobile) {
+			margin-right: 1em;
+		}
 	}
 }
