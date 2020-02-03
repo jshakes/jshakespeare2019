@@ -7,10 +7,20 @@
 	flex-wrap: wrap;
 	justify-content: stretch;
 	margin-bottom: -1em;
-	margin-right: -$page-margin-mobile;
+}
+
+.form__item {
+
+	margin-right: $page-margin-mobile;
+	flex-grow: 1;
 
 	@include larger-than(mobile) {
-		margin-right: -$page-margin-tablet;
+		margin-right: $page-margin-tablet;
+	}
+
+	&:last-child {
+		margin-right: 0;
+		flex-grow: 0;
 	}
 }
 
@@ -19,16 +29,11 @@
 
 	padding: 0.75em 1em;
 	min-width: 16em;
+	width: 100%;
 	line-height: 1;
 	border: 0.166666em solid var(--foreground, black);
 	margin-bottom: 1em;
-	flex-grow: 1;
 	box-shadow: 0.25em 0.25em 0 0 var(--shadow, black);
-	margin-right: $page-margin-mobile;
-
-	@include larger-than(mobile) {
-		margin-right: $page-margin-tablet;
-	}
 }
 
 .form__submit {
@@ -36,7 +41,6 @@
 
 	color: inherit;
 	margin-bottom: 1em;
-	margin-right: 2em;
 
 	&::after {
 		content: none;
