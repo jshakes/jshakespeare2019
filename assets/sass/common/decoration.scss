@@ -57,5 +57,9 @@
 		@include larger-than(mobile) {
 			left: -$page-margin-tablet + 0.666666em;
 		}
+
+		@include larger-than(tablet) {
+			left: -$page-margin-tablet;
+		}
 	}
 }
