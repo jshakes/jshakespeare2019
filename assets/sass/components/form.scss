@@ -33,7 +33,7 @@
 	line-height: 1;
 	border: 0.166666em solid var(--foreground, black);
 	margin-bottom: 1em;
-	box-shadow: 0.25em 0.25em 0 0 var(--shadow, black);
+	box-shadow: $shadow-width $shadow-width 0 0 var(--shadow, black);
 }
 
 .form__submit {
