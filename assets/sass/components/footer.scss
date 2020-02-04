@@ -27,9 +27,6 @@
 	&::before {
 		content: $decoration-character;
 		color: var(--accent-2);
-		
-		@include larger-than(mobile) {
-			margin-right: 1em;
-		}
+		margin-right: 1em;
 	}
 }
