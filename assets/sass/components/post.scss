@@ -55,25 +55,21 @@
 }
 
 .post__footer {
-	margin-top: 3em;
+	margin-top: 4em;
 }
 
-.post__footer-hr::before {
-	color: var(--accent-1);
+.post__footer-hr {
+	margin: 4em 0;
+
+	&::before {
+		color: var(--accent-1);
+	}
 }
 
 .post__footer-hr::after {
 	content: $decoration-character;
 	color: var(--accent-2);
 	margin-left: 0.25em;
-}
-
-.post__postscript {
-	font-style: italic;
-}
-
-.post__meta {
-	order: 1;
 }
 
 .post__featured-image {
