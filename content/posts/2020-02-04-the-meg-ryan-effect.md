@@ -1,5 +1,5 @@
 ---
-date: 2020-02-10 10:47:00+05:00
+date: 2020-02-04 10:47:00+05:00
 permalink: the-meg-ryan-effect
 title: The Meg Ryan effect
 featured_image: /post_images/meg-ryan-bbc.jpg
@@ -42,4 +42,4 @@ This disparity between memory and reality made me think of the Mandela Effect, a
 
 There are a number of explanations we could look at. An improvement in Anglo-US relations after Iraq, perhaps. Or the [shocking revelations](https://en.wikipedia.org/wiki/Operation_Yewtree) about the behavior of other so-called national-treasures from 1970’s Britain that tarnished a generation of entertainers. But I’d like to favor Occam’s razor and offer a more simple explanation: we have, as a society, got better at listening to women. Parkinson vs. Ryan is not a case of collective misremembering but a touchstone, albeit an ugly one, against which we can measure our progress. In 2003 we saw a difficult, ‘tetchy’ celebrity daring to insult an institutional, avuncular figure. Today we see a man bullying a woman.
 
-It’s an encouraging sign of progress at a time when progress can feel in short supply. No doubt there are similar exchanges taking place today that we will look back on 16 years from now and wonder how we got it so wrong. By way of an apology, let’s call it the Meg Ryan effect: not a collective misremembering, but a mile-marker on the road to equality.
+It’s an encouraging sign of progress at a time when progress can feel in short supply. No doubt there are similar exchanges taking place today that we will look back on 16 years from now and wonder how we got it so wrong. By way of an apology, let’s call it the Meg Ryan effect: not a collective misremembering, but the steady march toward equality.
