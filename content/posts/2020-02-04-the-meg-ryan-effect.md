@@ -2,7 +2,7 @@
 date: 2020-02-04 10:47:00+05:00
 permalink: the-meg-ryan-effect
 title: The Meg Ryan effect
-description: In 2003 Meg Ryan was vilified by the British press for being 'tetchy' on a late night chat show. In 2003, things look very different.
+description: In 2003 Meg Ryan was vilified by the British press for being 'tetchy' on a late night chat show. Now things look very different.
 featured_image: /post_images/meg-ryan-bbc.jpg
 featured_image_caption: "Meg Ryan on _Parkinson_ in 2003. Image credit: [YouTube](https://www.youtube.com/watch?v=blpq-Iwu25s)"
 ---
