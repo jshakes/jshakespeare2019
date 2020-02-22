@@ -61,6 +61,7 @@ figure {
 
   img {
     display: block;
+    margin: auto;
     box-shadow: $shadow-width $shadow-width 0 0 var(--shadow, black);
   }
 
