@@ -10,6 +10,7 @@ Disclaimer: things move fast on the web - lots of things I’ve made [no longer 
 ## At Quartz
 * [Quartz 2019 homepage redesign](https://qz.com/1724663/putting-members-at-the-heart-of-quartz/) - Putting the member experience at the heart of qz.com
 * [Quartz 2018 site rebuild](https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/) - React-based redesign of qz.com
+* [Now Hiring: India’s Jobs of the Future](https://qz.com/india/is/now-hiring/)
 * [The World in 50 Years](https://qz.com/is/the-world-in-50-years/) - 50 bold thinkers predict how the world will look 50 years from now
 * [What Happens Next](https://qz.com/is/what-happens-next-2/) - Essays and videos that predict where we’re going—and how we’ll get there
 * [How We’ll Win](https://qz.com/work/is/how-well-win/) - The world’s most qualified women. The fight for gender equality.
