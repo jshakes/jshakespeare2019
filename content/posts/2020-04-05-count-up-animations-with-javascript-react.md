@@ -13,7 +13,7 @@ Say you want to display a numeric value on a webpage with a [count-up animation]
 </p>
 <br>
 
-There are plenty of third-party libraries that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I decided to do just that.
+There are plenty of [third-party packages](https://www.npmjs.com/package/react-countup) that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I decided to do just that.
 
 Here’s the code in vanilla JavaScript using the DOM API:
 
