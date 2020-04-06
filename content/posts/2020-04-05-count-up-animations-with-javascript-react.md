@@ -12,7 +12,7 @@ Say you want to display a numeric value on a webpage with a count-up animation, 
 
 There are a few popular libraries that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I did just that.
 
-Here’s the code in vanilla JavaScript using the DOM API:
+Here’s the code in vanilla JavaScript using the DOM API ([CodePen here](https://codepen.io/jshakes/pen/KKpjdYv)):
 
 ```javascript
 // How long you want the animation to take, in ms
