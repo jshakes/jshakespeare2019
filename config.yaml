@@ -7,4 +7,4 @@ pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
 permalinks:
-  posts: /:title
+  posts: /:slug
