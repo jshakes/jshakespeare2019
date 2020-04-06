@@ -4,14 +4,21 @@ title: A simple count-up animation with JavaScript
 slug: simple-count-up-number-animation-javascript-react
 description: Animating numbers using a count-up function, implemented in vanilla JavaScript and React
 ---
-Say you want to display a numeric value on a webpage with a [count-up animation](https://codepen.io/jshakes/pen/KKpjdYv).
+Say you want to display a numeric value on a webpage with a count-up animation, like this:
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="jshakes" data-slug-hash="KKpjdYv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple countup animation">
-  <span>See the Pen <a href="https://codepen.io/jshakes/pen/KKpjdYv">
-  Simple countup animation</a> by James (<a href="https://codepen.io/jshakes">@jshakes</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<br>
+<iframe
+	height="300"
+	style="width: 100%; margin-bottom: 2em"
+	scrolling="no"
+	title="Simple countup animation"
+	src="https://codepen.io/jshakes/embed/KKpjdYv?height=265&theme-id=light&default-tab=js,result"
+	frameborder="no"
+	allowtransparency="true"
+	allowfullscreen="true"
+>
+  See the Pen <a href='https://codepen.io/jshakes/pen/KKpjdYv'>Simple countup animation</a> by James
+  (<a href='https://codepen.io/jshakes'>@jshakes</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 There are a few popular libraries that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I did just that.
 
