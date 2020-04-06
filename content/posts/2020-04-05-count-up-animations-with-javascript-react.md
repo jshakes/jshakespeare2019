@@ -4,7 +4,7 @@ title: A simple count-up animation with JavaScript
 slug: simple-count-up-number-animation-javascript-react
 description: Animating numbers using a count-up function, implemented in vanilla JavaScript and React
 ---
-Say you want to display a numeric value on a webpage with a count-up animation, like this:
+Say you want to display a numeric value on a webpage with a [count-up animation](https://codepen.io/jshakes/pen/KKpjdYv).
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="jshakes" data-slug-hash="KKpjdYv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple countup animation">
   <span>See the Pen <a href="https://codepen.io/jshakes/pen/KKpjdYv">
@@ -102,5 +102,3 @@ There are a couple of things you might want to change to suit your needs here. T
 Secondly, you may want to format the final value, e.g. by adding commas to break up large numbers, or rounding to a certain number of decimal points ([find both of these examples here](https://blog.abelotech.com/posts/number-currency-formatting-javascript/)). You can do this immediately before you return the current count value, e.g. replacing `return Math.floor(count)` with  `return myNumberFormattingFunc(count)`.
 
 With thanks to [Rob Heaton](https://robertheaton.com/) for helping me with this solution.
-
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
