@@ -6,19 +6,7 @@ description: Animating numbers using a count-up function, implemented in vanilla
 ---
 Say you want to display a numeric value on a webpage with a count-up animation, like this:
 
-<iframe
-	height="300"
-	style="width: 100%; margin-bottom: 2em"
-	scrolling="no"
-	title="Simple countup animation"
-	src="https://codepen.io/jshakes/embed/KKpjdYv?height=265&theme-id=light&default-tab=js,result"
-	frameborder="no"
-	allowtransparency="true"
-	allowfullscreen="true"
->
-  See the Pen <a href='https://codepen.io/jshakes/pen/KKpjdYv'>Simple countup animation</a> by James
-  (<a href='https://codepen.io/jshakes'>@jshakes</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+{{< codepen id="KKpjdYv" >}}
 
 There are a few popular libraries that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I did just that.
 
