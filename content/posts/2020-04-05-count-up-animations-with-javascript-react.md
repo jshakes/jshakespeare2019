@@ -6,19 +6,12 @@ description: Animating numbers using a count-up function, implemented in vanilla
 ---
 Say you want to display a numeric value on a webpage with a count-up animation, like this:
 
-<iframe
-	height="400"
-	style="width: 100%; margin-bottom: 2em"
-	scrolling="no"
-	title="Simple countup animation on CodePen.io"
-	src="https://codepen.io/jshakes/embed/KKpjdYv?height=265&theme-id=light&default-tab=js,result"
-	frameborder="no"
-	allowtransparency="true"
-	allowfullscreen="true"
->
-  See the Pen <a href='https://codepen.io/jshakes/pen/KKpjdYv'>Simple countup animation</a> by James
-  (<a href='https://codepen.io/jshakes'>@jshakes</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="jshakes" data-slug-hash="KKpjdYv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple countup animation">
+  <span>See the Pen <a href="https://codepen.io/jshakes/pen/KKpjdYv">
+  Simple countup animation</a> by James (<a href="https://codepen.io/jshakes">@jshakes</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<br>
 
 There are plenty of third-party libraries that will do this for you, often with lots of configurable bells and whistles. I’m always reluctant to add a dependency to my application that I could write myself in under an hour ([and you should be too](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)), so I decided to do just that.
 
@@ -109,3 +102,5 @@ There are a couple of things you might want to change to suit your needs here. T
 Secondly, you may want to format the final value, e.g. by adding commas to break up large numbers, or rounding to a certain number of decimal points ([find both of these examples here](https://blog.abelotech.com/posts/number-currency-formatting-javascript/)). You can do this immediately before you return the current count value, e.g. replacing `return Math.floor(count)` with  `return myNumberFormattingFunc(count)`.
 
 With thanks to [Rob Heaton](https://robertheaton.com/) for helping me with this solution.
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
