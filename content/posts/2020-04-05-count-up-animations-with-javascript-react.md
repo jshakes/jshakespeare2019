@@ -97,7 +97,7 @@ const CountUpAnimation = ( { children, duration = 2000 } ) => {
 <CountUpAnimation duration={1000}>500</CountUpAnimation>
 ```
 
-There are a couple of things you might want to change to suit your needs here. The first is that the examples above use an ease-out function, so that the count slows as it nears the final number. You can use any easing function (or none at all) that you like by replacing `easeOutQuad`.  Find a list of Javascript implementations of [easing functions in this Gist](https://gist.github.com/gre/1650294), and handy visualizations for each function on [easings.net](https://easings.net).
+There are a couple of things you might want to change to suit your needs here. The first is that the examples above use an ease-out function, so that the count slows as it nears the final number. You can use any easing function (or none at all) that you like by replacing `easeOutQuad`.  Find a list of JavaScript implementations of [easing functions in this Gist](https://gist.github.com/gre/1650294), and handy visualizations for each function on [easings.net](https://easings.net).
 
 Secondly, you may want to format the final value, e.g. by adding commas to break up large numbers, or rounding to a certain number of decimal points ([find both of these examples here](https://blog.abelotech.com/posts/number-currency-formatting-javascript/)). You can do this immediately before you return the current count value, e.g. replacing `return Math.floor(count)` with  `return myNumberFormattingFunc(count)`.
 
