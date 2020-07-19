@@ -6,6 +6,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: stretch;
+	align-items: flex-end;
 	margin-bottom: -1em;
 	margin-right: -$page-margin-mobile;
 
@@ -26,6 +27,12 @@
 		margin-right: 0;
 		flex-grow: 0;
 	}
+}
+
+.form__label {
+	text-decoration: none;
+	margin-bottom: 0.5em;
+	display: block;
 }
 
 .form__input {
