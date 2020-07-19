@@ -1,5 +1,6 @@
 .nav__items {
 	@include reset-ul;
+	@include constrain;
 
 	@include larger-than(mobile) {
 		display: flex;

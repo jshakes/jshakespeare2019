@@ -1,15 +1,13 @@
 @mixin constrain {
 	max-width: $content-max-width-mobile;
 	margin: 0 auto;
-	padding: 0 $page-margin-mobile;
 
 	@include larger-than(mobile) {
-		padding: 0 $page-margin-tablet;
 		max-width: $content-max-width-tablet;
 	}
 
 	@include larger-than(tablet) {
-		padding: 0;
+		max-width: $content-max-width-desktop;
 	}
 }
 

@@ -1,32 +1,34 @@
 {{ define "main" }}
   <div class="page">
-  	{{ partial "nav.html" }}
-    <main id="main">
-    	<article class="post">
-    		<div class="post__header">
-          <div class="post__meta">
-    		  	<h1 class="post__headline">{{.Title}}</h1>
-    		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "2 January 2006"}}</time>
-          </div>
-          {{ if .Params.featured_image }}
-          <figure class="post__featured-image">
-            <img alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="{{.Params.featured_image}}">
-            {{ if .Params.featured_image_caption }}
-            <figcaption class="post__featured-image-caption">{{.Params.featured_image_caption | markdownify}}</figcaption>
+   	{{ partial "nav.html" }}
+    <div class="page__content">
+      <main id="main">
+      	<article class="post">
+      		<div class="post__header">
+            <div class="post__meta">
+      		  	<h1 class="post__headline">{{.Title}}</h1>
+      		  	<time class="post__dateline" datetime="{{.Date}}">{{.Date.Format "2 January 2006"}}</time>
+            </div>
+            {{ if .Params.featured_image }}
+            <figure class="post__featured-image">
+              <img alt="{{ if .Params.featured_image_alt }}{{.Params.featured_image_alt}}{{end}}" src="{{.Params.featured_image}}">
+              {{ if .Params.featured_image_caption }}
+              <figcaption class="post__featured-image-caption">{{.Params.featured_image_caption | markdownify}}</figcaption>
+              {{ end }}
+            </figure>
             {{ end }}
-          </figure>
-          {{ end }}
-  		  </div>
-        <div class="post__content">
-  	  	  {{.Content}}
-        </div>
-        <div class="post__footer">
-          <hr class="post__footer-hr">
-          <p>I'm James Shakespeare. I build websites and write about design, technology and other things. If you’ve read this far you should consider following me on <a href="//twitter.com/jeshake/" target="_blank">Twitter</a>.</p>
-          <p>You can also subscribe to my mailing list to receive notifications when I publish a new post:</p>
-          {{ partial "mailchimp.html" }}
-        </div>
-  	  </article>
-    </main>
+    		  </div>
+          <div class="post__content">
+    	  	  {{.Content}}
+          </div>
+          <div class="post__footer">
+            <hr class="post__footer-hr">
+            <p>I'm James Shakespeare. I build websites and write about design, technology and other things. If you’ve read this far you should consider following me on <a href="//twitter.com/jeshake/" target="_blank">Twitter</a>.</p>
+            <p>You can also subscribe to my mailing list to receive notifications when I publish a new post:</p>
+            {{ partial "mailchimp.html" }}
+          </div>
+    	  </article>
+      </main>
+    </div>
   </div>
 {{ end }}

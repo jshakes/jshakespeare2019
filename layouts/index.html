@@ -21,34 +21,36 @@
       <div class="homepage-header__decoration" aria-hidden="true"></div>
     </div>
   </header>
-  <main id="main" class="page homepage-content">
-    <section class="homepage-content__section">
-      <h2 class="homepage-content__section-heading">About</h2>
-      <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-      {{.Content}}
-      <a class="cta" href="/about/">More about me<span class="cta__decoration" aria-hidden="true"></span></a>
-    </section>
-    <section class="homepage-content__section">
-      <h2 class="homepage-content__section-heading">Projects</h2>
-      <p><p>I do my best to keep this site updated with a list of things I’ve made, both for other people and for myself. Recent work that I’m proud of includes <a href="https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/">the 2018 rebuild of qz.com in React</a>, a one-off editorial feature for Quartz called <a href="https://qz.com/is/the-world-in-50-years/">The World in 50 Years</a> and a site that renders a pictogram of <a href="https://moontonight.co/">tonight’s moon phase using CSS</a>.</p></p>
-      <a class="cta" href="/projects/">More projects<span class="cta__decoration" aria-hidden="true"></span></a>
-    </section>
-    <section class="homepage-content__section">
-      <h2 class="homepage-content__section-heading">Recent posts</h2>
-      <ul class="post-list">
-      <!-- Ranges through content/posts/*.md -->
-      {{ range first 5 .Site.RegularPages }}
-        <li class="post-list__item">
-          <a href="{{.Permalink}}" class="post-list__link">
-            <h3 class="post-list__heading">{{.Title}}</h3>
-          </a>
-          <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "2 January 2006"}}</time>
-        </li>
-      {{ end }}
-      </ul>
-      <p>
-        <a class="cta" href="/posts/">All posts<span class="cta__decoration" aria-hidden="true"></span></a>
-      </p>
-    </section>
+  <main id="main" class="page">
+    <div class="page__content homepage-content">
+      <section class="homepage-content__section">
+        <h2 class="homepage-content__section-heading">About</h2>
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+        <a class="cta" href="/about/">More about me<span class="cta__decoration" aria-hidden="true"></span></a>
+      </section>
+      <section class="homepage-content__section">
+        <h2 class="homepage-content__section-heading">Projects</h2>
+        <p><p>I do my best to keep this site updated with a list of things I’ve made, both for other people and for myself. Recent work that I’m proud of includes <a href="https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/">the 2018 rebuild of qz.com in React</a>, a one-off editorial feature for Quartz called <a href="https://qz.com/is/the-world-in-50-years/">The World in 50 Years</a> and a site that renders a pictogram of <a href="https://moontonight.co/">tonight’s moon phase using CSS</a>.</p></p>
+        <a class="cta" href="/projects/">More projects<span class="cta__decoration" aria-hidden="true"></span></a>
+      </section>
+      <section class="homepage-content__section">
+        <h2 class="homepage-content__section-heading">Recent posts</h2>
+        <ul class="post-list">
+        <!-- Ranges through content/posts/*.md -->
+        {{ range first 5 .Site.RegularPages }}
+          <li class="post-list__item">
+            <a href="{{.Permalink}}" class="post-list__link">
+              <h3 class="post-list__heading">{{.Title}}</h3>
+            </a>
+            <time datetime="{{.Date}}" class="post-list__date">{{.Date.Format "2 January 2006"}}</time>
+          </li>
+        {{ end }}
+        </ul>
+        <p>
+          <a class="cta" href="/posts/">All posts<span class="cta__decoration" aria-hidden="true"></span></a>
+        </p>
+      </section>
+    </div>
   </main>
 {{ end }}

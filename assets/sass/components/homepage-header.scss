@@ -3,8 +3,8 @@ $border-width: 0.5em;
 .homepage-header {
 	@include fixed-gradient-border__container($border-width);
 
-	margin: 1em 1em 4em + $border-width;
-	padding: 4em $page-margin-mobile;
+	margin: 0.5em 0.5em 4em + $border-width;
+	padding: 4em 1em;
 	font-family: $display-font;
 
 	@include larger-than(mobile) {
@@ -15,12 +15,15 @@ $border-width: 0.5em;
 	@include larger-than(desktop) {
 		margin: 4em auto 4em + $border-width;
 		padding: 4em 6em;
+		width: calc(100vw - ((100vw - #{$content-max-width-tablet}) / 2));
 		max-width: 1200px;
 	}
 }
 
 .homepage-header__contents {
-	max-width: 1024px;
+	@include constrain;
+
+	margin: 0 auto;
 }
 
 .homepage-header__decoration {
@@ -48,6 +51,6 @@ $border-width: 0.5em;
 	}
 
 	@include larger-than(desktop) {
-		font-size: 2.5em;
+		font-size: 2.25em;
 	}
 }
