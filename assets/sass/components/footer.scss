@@ -7,12 +7,15 @@
 
 	@include larger-than(mobile) {
 		padding: 0 $page-margin-tablet;
-		display: flex;
 	}
 }
 
 .footer__contents {
 	@include constrain;
+
+	@include larger-than(mobile) {
+		display: flex;
+	}
 }
 
 .footer__links {
