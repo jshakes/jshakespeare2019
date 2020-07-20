@@ -1,14 +1,18 @@
 .footer {
-	@include constrain;
-
+	padding: 0 $page-margin-mobile;
 	font-family: $display-font;
 	margin-top: 6rem;
 	margin-bottom: 4rem;
 	font-size: 0.8em;
 
 	@include larger-than(mobile) {
+		padding: 0 $page-margin-tablet;
 		display: flex;
 	}
+}
+
+.footer__contents {
+	@include constrain;
 }
 
 .footer__links {
