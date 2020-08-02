@@ -42,6 +42,7 @@
 		padding: $page-margin-mobile;
 		margin: 2em $page-margin-mobile * -1;
 		overflow: auto;
+		white-space: pre;
 
 		@include larger-than(mobile) {
 			padding: $page-margin-tablet;
