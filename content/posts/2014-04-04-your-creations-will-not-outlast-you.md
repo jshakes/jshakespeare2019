@@ -2,7 +2,7 @@
 date: 2014-04-04
 layout: post
 permalink: your-creations-will-not-outlast-you
-title: Your Creations Will Not Outlast You
+title: Your creations will not outlast you
 ---
 _This post was originally published on [bighumandotcom.tumblr.com](http://bighumandotcom.tumblr.com/)_
 
