@@ -8,6 +8,10 @@ An incomplete collection of things I’ve made or helped make over the years.
 Disclaimer: things move fast on the web - lots of things I’ve made [no longer exist](/your-creations-will-not-outlast-you/) or have since been updated. As such, some of the links below point to press articles or GitHub repositories.
 
 ## At Quartz
+* [Prism](https://prism.qz.com) - Quartz’s public component library for React
+* [Quartz 2020 homepage redesign](https://www.mediapost.com/publications/article/353220/quartz-new-homepage-offers-more-concise-news-ru.html) - Rethinking the typical news homepage
+* [The New Normal](https://qz.com/is/new-normal/) - How coronavirus will change the next five years
+* [Quartz Creative](https://qz.com/creative/) - The portfolio of Quartz’s in-house creative studio
 * [Quartz 2019 homepage redesign](https://qz.com/1724663/putting-members-at-the-heart-of-quartz/) - Putting the member experience at the heart of qz.com
 * [Quartz 2018 site rebuild](https://qz.com/1345184/version-5-of-qz-com-faster-smarter-and-ready-for-the-future/) - React-based redesign of qz.com
 * [Now Hiring: India’s Jobs of the Future](https://qz.com/india/is/now-hiring/)
