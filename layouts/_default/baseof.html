@@ -19,14 +19,15 @@
     <title>{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}"/>
-    <meta name="twitter:card" content="summary_large_image">
     {{ if .Params.featured_image }}
+    <meta name="twitter:card" content="summary_large_image"></meta>
     <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}" />
     {{ if .Params.featured_image_alt }}<meta name="twitter:image:alt" content="{{ .Params.featured_image_alt }}">{{end}}
     {{ else }}
+    <meta name="twitter:card" content="summary"></meta>
     <meta property="og:image" content="{{ .Site.BaseURL }}/ogimage.png">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}/ogimage.png">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/ogimage.png" />
     {{ end }}
     {{ if eq .Section "posts" }}
     <meta property="og:type" content="article" />
