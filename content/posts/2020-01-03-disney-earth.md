@@ -4,7 +4,7 @@ layout: post
 permalink: disney-earth
 title: Disney Earth
 description: Big ships in little Iceland
-featured_image: /post_images/disney-earth.jpg
+featured_image: post_images/disney-earth.jpg
 featured_image_caption: "The Disney Magic is refuelled by the tankship Sirius in Warnemünde, Germany in August 2018. Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Disney_Magic_and_Sirius_in_Warnem%C3%BCnde_II.jpg)"
 ---
 

@@ -4,7 +4,7 @@ layout: post
 permalink: finding-a-voice
 title: Finding a voice
 description: Could uncovering my writer’s voice help me enjoy writing more?
-featured_image: /post_images/Keaton-Writers-1923.jpg
+featured_image: post_images/Keaton-Writers-1923.jpg
 featured_image_caption: "Buster Keaton with his writing staff. Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Keaton-Writers-1923.jpg)"
 ---
 
