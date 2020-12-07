@@ -8,7 +8,7 @@ featured_image_alt: Still from the 1980s TV show Twin Peaks showing actress Cath
 slug: javascript-console-log-etymology
 ---
 
-If you’re a JavaScript developer you will be familiar with `console.log`, a function for printing a value to the console. `console.log` is often used for debugging, and if you’re a great JavaScript developer like me, you mostly use it to determine whether your code is working by printing things like `'asdasdsds'` or `'HELLO IS THIS RUNNING?!?!’`.
+If you’re a JavaScript developer you will be familiar with `console.log`, a function for printing a value to the console. `console.log` is often used for debugging, and if you’re a great JavaScript developer like me, you mostly use it to determine whether your code is working by printing things like `'asdasdsds'` or `'HELLO IS THIS RUNNING?!?!'`.
 
 ```javascript
 const msg = 'JavaScript is fun';
