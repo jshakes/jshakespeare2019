@@ -13,7 +13,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-    <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
     <meta property="og:site_name" content="James Shakespeare">
     <meta property="og:locale" content="{{ .Site.LanguageCode }}">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -23,12 +22,10 @@
     {{ if .Params.featured_image }}
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.featured_image}}" />
     {{ if .Params.featured_image_alt }}<meta name="twitter:image:alt" content="{{ .Params.featured_image_alt }}">{{end}}
     {{ else }}
     <meta name="twitter:card" content="summary"></meta>
-    <meta property="og:image" content="{{ .Site.BaseURL }}/ogimage.png">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}/ogimage.png" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}ogimage.png">
     {{ end }}
     {{ if eq .Section "posts" }}
     <meta property="og:type" content="article" />
