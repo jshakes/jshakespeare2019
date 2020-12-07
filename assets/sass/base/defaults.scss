@@ -62,12 +62,10 @@ figure {
   img {
     display: block;
     margin: auto;
-    box-shadow: $shadow-width $shadow-width 0 0 var(--shadow, black);
   }
 
   figcaption {
     margin-top: 1.5em;
-    margin-left: 0.333333rem;
     font-size: 0.8em;
 
     p {

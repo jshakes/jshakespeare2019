@@ -1,5 +1,5 @@
 .post__header {
-	margin: 6em 0 4em;
+	margin: 4em 0;
 }
 
 .post__headline {
@@ -76,4 +76,16 @@
 
 .post__featured-image {
 	margin: 2em 0 0;
+}
+
+.post__figure--medium {
+	max-width: 28em;
+}
+
+.post__figure--small {
+	max-width: 12em;
+
+	@include larger-than(mobile) {
+		max-width: 16em;
+	}
 }
