@@ -4,7 +4,6 @@ layout: post
 permalink: your-creations-will-not-outlast-you
 title: Your creations will not outlast you
 ---
-_This post was originally published on [bighumandotcom.tumblr.com](http://bighumandotcom.tumblr.com/)_
 
 If you work in the creative industries, it’s inviting to think that someday people might look back on the things you made and marvel at the genius that sculpted them. Just as we look at the masterful brush strokes of Starry Night or the sweeping arches of the Brooklyn Bridge, we dream that our own creations too will outlive us.
 
@@ -27,3 +26,5 @@ Steve Jobs summed this notion up perfectly in a [1994 interview](https://www.you
 This doesn’t mean that we can have no legacy on the web. Almost every computer built during Steve Job’s tenure as Apple CEO is already obsolete, but his legacy is one of the most prominent of our time. Jobs stood on the shoulders of giants like Alan Kay, Alan Turing, Ada Lovelace and Charles Babbage. The legacies of these men and women are not in what they individually made during their lifetimes, but in the fact that you loaded this article in a fraction of a second and read it on a machine of vast complexity now, in 2014.
 
 What we make on the web today will not outlast us. But people can be inspired by what you make, and the things those people make can inspire others, and so on. That can be forever.
+
+_This post was originally published on [bighumandotcom.tumblr.com](http://bighumandotcom.tumblr.com/)_
