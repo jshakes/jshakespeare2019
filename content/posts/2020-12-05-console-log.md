@@ -1,5 +1,5 @@
 ---
-date: 2020-12-06 12:20:52+00:00
+date: 2020-12-07 12:20:52+00:00
 title: How did JavaScript’s console.log get its name?
 description: Let’s take an etymological stroll through history and find out how these two unusual words ended up in JavaScript.
 featured_image: /post_images/log-lady.jpg
