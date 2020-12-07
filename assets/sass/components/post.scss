@@ -75,7 +75,11 @@
 }
 
 .post__featured-image {
-	margin: 2em 0 0;
+	margin: 2em -2em 0;
+}
+
+.post__featured-image-caption {
+	padding: 0 2em;
 }
 
 .post__figure--medium {
