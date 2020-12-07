@@ -2,7 +2,7 @@
 date: 2020-12-07 12:20:52+00:00
 title: How did JavaScript’s console.log get its name?
 description: Let’s take an etymological stroll through history and find out how these two unusual words ended up in JavaScript.
-featured_image: /post_images/log-lady.jpg?a=1
+featured_image: /post_images/log-lady-twin-peaks.jpg
 featured_image_caption: Catherine E. Coulson gives `console.log` a different meaning as the Log Lady in *Twin Peaks*
 featured_image_alt: Still from the 1980s TV show Twin Peaks showing actress Catherine E. Coulson as the Log Lady stroking her pet log
 slug: javascript-console-log-etymology
