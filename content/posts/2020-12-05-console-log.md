@@ -33,7 +33,7 @@ The concept of a debugging console is not unique to JavaScript. It’s a basic s
 
 {{< figure class="post__figure--medium" src="/post_images/osx-console.gif" alt="A screenshot of the OSX Console application" caption="The OSX Console application" >}}
 
-The definition of a console as a software feature comes from the early days of computing, when a user interacted with a computer mainframe (which was often very large and possibly located in another room or building) via an array of controls set in a desk.
+The definition of console as a software feature comes from the early days of computing, when a user interacted with a computer mainframe (which was often very large and possibly located in another room or building) via an array of controls set in a desk.
 
 {{< figure class="post__figure--medium" src="/post_images/ibm7090.jpg" alt="A man in a white shirt pressing a button on a 1960's IBM computer console" caption="A meteorologist at the console of the IBM 7090 electronic computer in the Joint Numerical Weather Prediction Unit in 1965. Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_7090_console_used_by_a_meteorologist,_1965.jpg)" >}}
 
@@ -45,7 +45,7 @@ But the use of the word console to describe a panel of electrical controls can b
 
 {{< figure class="post__figure--medium" src="/post_images/pipe-organ-ebrach-kirche.jpg" alt="Interior photograph of a church showing the pipe organ facade below a large stained glass window" caption="The pipe organ facade in the former abbey church in Ebrach, Germany. Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ebrach_Kirche_rose_window_Orgel_P4252411efs.jpg)" >}}
 
-The pipe organ is the world’s largest musical instrument, played by an operator who sits at a complex array of controls called a console. Organ consoles consist of keyboards (typically three to five), pedals, and stops - binary valves used for controlling wind flow to the pipes.
+The pipe organ is the largest musical instrument, and is played by an organist who sits at a complex array of controls called a console. Organ consoles consist of keyboards (typically three to five), pedals, and stops - binary valves used for controlling wind flow to the pipes.
 
 {{< figure class="post__figure--small" src="/post_images/organ-console.jpg" alt="A pipe organ console with console brackets" caption="Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Usnaconsole.jpg)" >}}
 
