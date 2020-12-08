@@ -29,7 +29,7 @@ Other forms of communication like emails and meetings are not suitable for every
 
 If the main reason to use Slack is because it shouts the loudest, should we really be using it? If a competitor were to release something tomorrow that set off an airhorn in the user's face every time someone sent them a message, would that become the new choice of office communication? I’d bet ten bucks and a pair of ear defenders that it would. Slack is undoubtedly useful for some things, and for some people more than others, but it is not the holy grail of workplace communication that it claims to be.
 
-Slack as a company is not hell-bent on ruining our productivity or stressing us out with feelings of bombardment or FOMO, but they are in the business of making as many people as possible dependent on their product as possible. Sometimes it’s best to step away from Slack, consider what we want to say, and schedule a time to say it. Perhaps then we can actully be more productive, less stressed, and just a little bit happier.
+Slack as a company is not hell-bent on ruining our productivity or stressing us out with feelings of bombardment or FOMO, but they are in the business of making as many people dependent on their product as possible. Sometimes it’s best to step away from Slack, consider what we want to say, and schedule a time to say it. Perhaps then we can actully be more productive, less stressed, and just a little bit happier.
 
 ## References
 
