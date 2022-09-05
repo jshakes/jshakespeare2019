@@ -1,1 +1,3 @@
-I have over ten years of experience building websites at in-house, agency and freelance roles. I spend most of my time writing code using languages like JavaScript, but I'm often involved in shaping the design and user experience of the things I build too. I currently work on the product engineering team at Quartz, where I write code and manage other developers.
+I have over a decade of experience building software at startup, agency, and freelance roles. I specialize in writing code using languages like JavaScript and frameworks like React.js, but I'm often also involved in shaping the design and user experience of the things I build.
+
+I'm currently accepting freelance contracts. You should [email me](mailto:j@jshakespeare.com) if you need a product engineering specialist for your next project.
